@@ -8,7 +8,7 @@ export const words = [
     { "english": "work(n)", "hebrew": "עבודה", "pronouncs": "avodah" },
     { "english": "big", "hebrew": "גדול", "pronouncs": "gadol" },
     { "english": "elephant", "hebrew": "פ'ל", "pronouncs": "pil" },
-    { "english": "end", "hebrew": "סןפ", "pronouncs": "sof" },
+    { "english": "end", "hebrew": "סוף", "pronouncs": "sof" },
     { "english": "saint", "hebrew": "צד'ק", "pronouncs": "tsadik" },
     { "english": "bird", "hebrew": "צ'פור", "pronouncs": "tsipor" },
     { "english": "roof", "hebrew": "גג", "pronouncs": "gag" },

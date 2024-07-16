@@ -40,9 +40,7 @@ export class AwsHebrewInfraStack extends cdk.Stack {
       defaultRootObject: 'index.html',
       certificate: cert,
       defaultBehavior: {
-        origin: new origins.S3Origin(hebrewBucket, {
-          originPath: "/inedx.html",
-        }),
+        origin: new origins.S3Origin(hebrewBucket),
         viewerProtocolPolicy: cf.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
       },
     });

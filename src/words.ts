@@ -9,4 +9,12 @@ export const words = [
     { "english": "big", "hebrew": "גדול", "pronouncs": "gadol" },
     { "english": "elephant", "hebrew": "פ'ל", "pronouncs": "pil" },
     { "english": "end", "hebrew": "סןפ", "pronouncs": "sof" },
+    { "english": "saint", "hebrew": "צד'ק", "pronouncs": "tsadik" },
+    { "english": "bird", "hebrew": "צ'פור", "pronouncs": "tsipor" },
+    { "english": "roof", "hebrew": "גג", "pronouncs": "gag" },
+    { "english": "fish", "hebrew": "דג", "pronouncs": "dag" },
+    { "english": "water heater", "hebrew": "דוד", "pronouncs": "dud" },
+    { "english": "fly(insect)", "hebrew": "זבוב", "pronouncs": "zvuv" },
+    { "english": "farm", "hebrew": "חווה", "pronouncs": "chava" },
+    { "english": "hand", "hebrew": "ד'", "pronouncs": "yad" },
 ]

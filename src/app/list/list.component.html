@@ -1,0 +1,16 @@
+<div class="flip-card" *ngFor="let item of wordList | paginate: { itemsPerPage: 20, currentPage: p}">
+<div class="flip-card-inner" >
+
+    <div class="flip-card-front" >
+      <h1>{{ item.english }}</h1>
+    </div>
+    <div class="flip-card-back">
+      <h1>{{item.hebrew}}</h1>
+      <p>{{item.pronouncs}}</p>
+    </div>
+
+  </div>
+</div>
+
+
+   <pagination-controls (pageChange)="p= $event"></pagination-controls>

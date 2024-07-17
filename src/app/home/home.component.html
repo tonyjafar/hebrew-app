@@ -1,0 +1,22 @@
+
+
+ @for (word of wordsDic; track word){
+ <div class="flip-card">
+  <div class="flip-card-inner">
+
+    <div class="flip-card-front">
+      <h1>{{ word.english }}</h1>
+    </div>
+    <div class="flip-card-back">
+      <h1>{{word.hebrew}}</h1>
+      <p>{{word.pronouncs}}</p>
+    </div>
+
+  </div>
+</div>
+}
+
+<br>
+<br>
+
+<button class="button" onClick="window.location.reload();">Refresh Page</button>

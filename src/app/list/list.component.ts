@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 import { words } from '../../words';
 import { NgxPaginationModule } from 'ngx-pagination';
-import { CommonModule, NgFor } from '@angular/common';
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 
 

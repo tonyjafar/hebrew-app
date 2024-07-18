@@ -110,7 +110,7 @@ export const words = [
     { "english": "but", "hebrew": "אבל", "pronouncs": "aval" },
     { "english": "now", "hebrew": "עכשיו", "pronouncs": "achshav" },
     { "english": "people", "hebrew": "אנשים", "pronouncs": "anashim" },
-    { "english": "here", "hebrew": "פה/כן", "pronouncs": "pu/kan" },
+    { "english": "here", "hebrew": "פה/כאן", "pronouncs": "pu/kan" },
     { "english": "lot", "hebrew": "הרבה", "pronouncs": "harbeh" },
     { "english": "children", "hebrew": "ילדים", "pronouncs": "yeladim" },
     { "english": "at all", "hebrew": "בכלל", "pronouncs": "bechlal" },

@@ -252,6 +252,7 @@ export const words = [
     { "english": "eye", "hebrew": "עין", "pronouncs": "a'ayn" },
     { "english": "nose", "hebrew": "אף", "pronouncs": "af" },
     { "english": "mouth", "hebrew": "פה", "pronouncs": "peh" },
+    { "english": "ear", "hebrew": "אזן", "pronouncs": "ozen" },
     { "english": "lips", "hebrew": "שפתים", "pronouncs": "shfataym" },
     { "english": "teeth", "hebrew": "שנים", "pronouncs": "shenaym" },
     { "english": "tongue", "hebrew": "לשון", "pronouncs": "lashon" },
@@ -286,5 +287,6 @@ export const words = [
     { "english": "I/he must/owe", "hebrew": "חייב", "pronouncs": "chayav" },
     { "english": "window", "hebrew": "חלון", "pronouncs": "chalon" },
     { "english": "milk", "hebrew": "חלב", "pronouncs": "chalav" },
+    { "english": "life", "hebrew": "חיים", "pronouncs": "chayim" },
 ]
 

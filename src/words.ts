@@ -1,4 +1,4 @@
-export const words = [
+export const words: Words[] = [
     { "english": "loop", "hebrew": "לולאה" , "pronouncs": "lola'a"},
     { "english": "boy", "hebrew": "ילד" , "pronouncs": "yaled"},
     { "english": "water", "hebrew": "מים", "pronouncs": "mayem"},
@@ -290,3 +290,9 @@ export const words = [
     { "english": "life", "hebrew": "חיים", "pronouncs": "chayim" },
 ]
 
+
+export type Words = {
+  english: string,
+  hebrew: string,
+  pronouncs: string
+}

@@ -1,4 +1,5 @@
-import {words, Words} from './words'
+import { PassThrough } from 'stream';
+import { words, Words } from './words'
 
 
 
@@ -8,21 +9,41 @@ function getRandomSlice<T>(array: T[]): T[] {
     return array.slice(startIndex, startIndex + sliceLength);
 }
 
-
-export function getSearchedWords(search: any): Words[]{
-  let findings: Words[] = [];
-  if (search.length <= 1){
-    return findings;
-  }
-  words.forEach(element => {
-    if (element.english.includes(search)){
-      findings.push(element);
-    }
-  }
-);
-
-  return findings ;
+function splitList(englich: string): string[] {
+    const array = englich.split(" ");
+    return array;
 }
 
 
-export const  randomSlice = getRandomSlice(words);
+export function getSearchedWords(search: any): [Words[], Words[]] {
+    let findings: Words[] = [];
+    let related: Words[] = [];
+    if (search.length <= 1) {
+        return [findings, related];
+    }
+
+    words.forEach(element => {
+        if (element.english == search) {
+            findings.push(element);
+        } else if (element.english.includes(search)) {
+            splitList(element.english).forEach(item => {
+                if (item == search) {
+                    findings.push(element);
+                } 
+            }
+            );
+            const itemExists = findings.some(item => 
+                item.english === element.english
+              );
+              if (!itemExists){
+                related.push(element);
+              }
+        }
+    }
+    );
+
+    return [findings, related];;
+}
+
+
+export const randomSlice = getRandomSlice(words);

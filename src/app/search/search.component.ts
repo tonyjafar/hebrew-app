@@ -14,9 +14,10 @@ import {Words} from '../../words'
 export class SearchComponent {
   public paramKeys: any;
   public params: any;
-  public findWord: Words[];
+  public findWord: Words[] = [];
+  public relatedWord: Words[] = [];
   public wordsCount: any;
-
+  public relatedCount: any;
   constructor(private route: ActivatedRoute) {
     this.route.queryParamMap
       .subscribe((p:any) => {
@@ -25,11 +26,12 @@ export class SearchComponent {
       }
     );
     if (this.params !== undefined) {
-    this.findWord = getSearchedWords(this.params);
+    [this.findWord, this.relatedWord] = getSearchedWords(this.params);
   } else{
     this.findWord = [];
   }
   this.wordsCount = this.findWord.length;
+  this.relatedCount = this.relatedWord.length;
   }
 
 }

@@ -14,6 +14,9 @@
 </div>
 
 
+
+
+<div class="container">
 <div *ngIf="wordsCount > 0">
 
 
@@ -44,3 +47,29 @@
 
 </tbody>
 </table>
+
+
+<div *ngIf="relatedCount > 0">
+<h3>Similar Words</h3>
+</div>
+<table *ngIf="relatedCount > 0" class="table table-striped">
+  <thead>
+    <tr>
+  <th scope="col">English</th>
+      <th scope="col">Hebrew</th>
+      <th scope="col">pronounce</th>
+      </tr>
+  </thead>
+  <tbody>
+
+ @for (word of relatedWord; track word){
+   <tr>
+    <td>{{word.english}}</td>
+    <td>{{word.hebrew}}</td>
+    <td>{{word.pronouncs}}</td>
+    </tr>
+}
+
+</tbody>
+</table>
+</div>

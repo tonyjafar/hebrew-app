@@ -15,7 +15,8 @@ function splitList(englich: string): string[] {
 }
 
 
-export function getSearchedWords(search: any): [Words[], Words[]] {
+export function getSearchedWords(search: string): [Words[], Words[]] {
+    search = search.toLocaleLowerCase();
     let findings: Words[] = [];
     let related: Words[] = [];
     if (search.length <= 1) {

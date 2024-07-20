@@ -43,7 +43,7 @@ export function getSearchedWords(search: string): [Words[], Words[]] {
     }
     );
 
-    return [findings, related];;
+    return [findings, related];
 }
 
 

@@ -3,10 +3,27 @@ import { words, Words } from './words'
 
 
 
-function getRandomSlice<T>(array: T[]): T[] {
+function getRandomIndex(): number{
+    return Math.floor(Math.random() * words.length);
+}
+
+
+function getRandomSlice<T>(): Words[] {
     const sliceLength = 6;
-    const startIndex = Math.floor(Math.random() * (array.length - sliceLength + 1));
-    return array.slice(startIndex, startIndex + sliceLength);
+    let newList : Words[] = [];
+    for(let x = 0; x<= words.length + 1; x++){
+        const index = getRandomIndex();
+        const itemExists = newList.some(item => 
+            item.english === words[index].english
+          );
+          if (!itemExists){
+            newList.push(words[index]);
+          }
+        if (newList.length == sliceLength) {
+            return newList;
+        }
+    }
+    return newList
 }
 
 function splitList(word: string): string[] {
@@ -53,4 +70,4 @@ export function getSearchedWords(search: string): [Words[], Words[]] {
 }
 
 
-export const randomSlice = getRandomSlice(words);
+export const randomSlice = getRandomSlice();

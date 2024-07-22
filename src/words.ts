@@ -518,7 +518,22 @@ export const words: Words[] = [
     { "english": "snail", "hebrew": "שבלול", "pronouncs": "shablul" },
     { "english": "drum", "hebrew": "תוף", "pronouncs": "tof" },
     { "english": "bow", "hebrew": "קשת", "pronouncs": "bow" },
-
+    { "english": "arrow", "hebrew": "חץ", "pronouncs": "chetz" },
+    { "english": "mosquito", "hebrew": "יתוש", "pronouncs": "yatush" },
+    { "english": "door", "hebrew": "דלת", "pronouncs": "delet" },
+    { "english": "chipmunk", "hebrew": "סנאי", "pronouncs": "sna'i" },
+    { "english": "sand", "hebrew": "חול", "pronouncs": "chul" },
+    { "english": "watermelon", "hebrew": "אבטיח", "pronouncs": "avatiach" },
+    { "english": "high speed train", "hebrew": "רכבת מהירה", "pronouncs": "rakevet mahira" },
+    { "english": "bell", "hebrew": "פעמון", "pronouncs": "pa'amon" },
+    { "english": "candle", "hebrew": "נר", "pronouncs": "ner" },
+    { "english": "station", "hebrew": "תחנה", "pronouncs": "tachana" },
+    { "english": "rose", "hebrew": "ורד", "pronouncs": "vered" },
+    { "english": "medal", "hebrew": "מדלייה", "pronouncs": "medaliah" },
+    { "english": "luck", "hebrew": "מזל", "pronouncs": "mazal" },
+    { "english": "saver", "hebrew": "מציל", "pronouncs": "matzil" },
+    { "english": "rabbit", "hebrew": "ארנב", "pronouncs": "arnav" },
+    { "english": "cheese", "hebrew": "גבינה", "pronouncs": "gevina" },
 ]
 
 

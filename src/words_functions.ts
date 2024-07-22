@@ -9,8 +9,8 @@ function getRandomSlice<T>(array: T[]): T[] {
     return array.slice(startIndex, startIndex + sliceLength);
 }
 
-function splitList(englich: string): string[] {
-    const array = englich.split(" ");
+function splitList(word: string): string[] {
+    const array = word.split(" ");
     return array;
 }
 
@@ -24,17 +24,23 @@ export function getSearchedWords(search: string): [Words[], Words[]] {
     }
 
     words.forEach(element => {
-        if (element.english == search) {
+        if (element.english == search || element.hebrew == search) {
             findings.push(element);
-        } else if (element.english.includes(search)) {
+        } else if (element.english.includes(search) || element.hebrew.includes(search)) {
             splitList(element.english).forEach(item => {
                 if (item == search) {
                     findings.push(element);
                 } 
             }
+          
             );
+            splitList(element.hebrew).forEach(item => {
+                if (item == search){
+                    findings.push(element);
+                }
+            });
             const itemExists = findings.some(item => 
-                item.english === element.english
+                item.english === element.english || item.hebrew == element.hebrew
               );
               if (!itemExists){
                 related.push(element);

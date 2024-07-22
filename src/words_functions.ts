@@ -8,7 +8,7 @@ function getRandomIndex(): number{
 }
 
 
-function getRandomSlice<T>(): Words[] {
+function getRandomSlice(): Words[] {
     const sliceLength = 6;
     let newList : Words[] = [];
     for(let x = 0; x<= words.length + 1; x++){

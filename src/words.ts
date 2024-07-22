@@ -604,6 +604,7 @@ export const words: Words[] = [
     { "english": "danger", "hebrew": "סכנה", "pronouncs": "sakana" },
     { "english": "cute", "hebrew": "חמוד", "pronouncs": "chamud" },
     { "english": "mustashe", "hebrew": "שפם", "pronouncs": "safam" },
+    { "english": "shock", "hebrew": "הלם", "pronouncs": "helem" },
 ]
 
 

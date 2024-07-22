@@ -534,6 +534,19 @@ export const words: Words[] = [
     { "english": "saver", "hebrew": "מציל", "pronouncs": "matzil" },
     { "english": "rabbit", "hebrew": "ארנב", "pronouncs": "arnav" },
     { "english": "cheese", "hebrew": "גבינה", "pronouncs": "gevina" },
+    { "english": "purse", "hebrew": "ארנק", "pronouncs": "arnak" },
+    { "english": "rhinoceros", "hebrew": "קרנף", "pronouncs": "karnaf" },
+    { "english": "sunflower", "hebrew": "חמנית", "pronouncs": "chamanit" },
+    { "english": "axe", "hebrew": "גרזן", "pronouncs": "garzen" },
+    { "english": "skull", "hebrew": "גולגולת", "pronouncs": "galgolet" },
+    { "english": "mountain", "hebrew": "הר", "pronouncs": "har" },
+    { "english": "herb", "hebrew": "עשב", "pronouncs": "esev" },
+    { "english": "strawberries", "hebrew": "תותים", "pronouncs": "tutim" },
+    { "english": "cigarette", "hebrew": "סיגריה", "pronouncs": "sigaria" },
+    { "english": "clown", "hebrew": "ליצן", "pronouncs": "li'tzan" },
+    { "english": "butter", "hebrew": "חמאה", "pronouncs": "chem'a" },
+    { "english": "chestnut", "hebrew": "ערמון", "pronouncs": "aarmun" },
+    { "english": "snake", "hebrew": "נחש", "pronouncs": "nachash" },
 ]
 
 

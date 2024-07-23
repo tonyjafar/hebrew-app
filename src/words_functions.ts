@@ -33,7 +33,7 @@ function splitList(word: string): string[] {
 
 
 export function getSearchedWords(search: string): [Words[], Words[]] {
-    search = search.toLocaleLowerCase();
+    search = search.toLocaleLowerCase().trim();
     let findings: Words[] = [];
     let related: Words[] = [];
     if (search.length <= 1) {

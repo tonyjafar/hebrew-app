@@ -82,7 +82,7 @@ export const words: Words[] = [
     { "english": "I/he hurt / pain", "hebrew": "כואב", "pronouncs": "ko'ev" },
     { "english": "I/he rest", "hebrew": "נח", "pronouncs": "nach" },
     { "english": "I/he choose", "hebrew": "בוחר", "pronouncs": "bocher" },
-    { "english": "I/he wear", "hebrew": "מתלבש", "pronouncs": "mitlabesh" },
+    { "english": "I/he wear", "hebrew": "לובש", "pronouncs": "lovesh" },
     { "english": "I/he find", "hebrew": "מוצא", "pronouncs": "motze" },
     { "english": "I/he dream", "hebrew": "חולם", "pronouncs": "cholem" },
     { "english": "I/he open", "hebrew": "פותח", "pronouncs": "poteach" },
@@ -186,7 +186,7 @@ export const words: Words[] = [
     { "english": "to hurt", "hebrew": "לכאוב", "pronouncs": "lech'ov" },
     { "english": "to rest", "hebrew": "לנוח", "pronouncs": "lanoach" },
     { "english": "to choose", "hebrew": "לבחור", "pronouncs": "levchor" },
-    { "english": "to wear", "hebrew": "להתלבש", "pronouncs": "lehitlabseh" },
+    { "english": "to wear", "hebrew": "ללבוש", "pronouncs": "lilbosh" },
     { "english": "to find", "hebrew": "למצוא", "pronouncs": "lemtzo" },
     { "english": "to dream", "hebrew": "לחלום", "pronouncs": "lachlom" },
     { "english": "to open", "hebrew": "לפתוח", "pronouncs": "leftoach" },
@@ -1342,7 +1342,7 @@ export const words: Words[] = [
     { "english": "I/she get married", "hebrew": "מתחתנת", "pronouncs": "metchatenet" },
     { "english": "I got married", "hebrew": "התחתנתי", "pronouncs": "hitchatanti" },
     { "english": "I will get married", "hebrew": "אתחתן", "pronouncs": "etchaten" },
-    { "english": "get married (male) (imperative)", "hebrew": "התלתן", "pronouncs": "hitchaten" },
+    { "english": "get married (male) (imperative)", "hebrew": "התחתן", "pronouncs": "hitchaten" },
 ]
 
 

@@ -1376,6 +1376,39 @@ export const words: Words[] = [
     { "english": "I kept", "hebrew": "שמרתי", "pronouncs": "shamarti" },
     { "english": "I will keep", "hebrew": "אשמור", "pronouncs": "eshmor" },
     { "english": "keep (male) (imperative)", "hebrew": "שמר", "pronouncs": "shmor" },
+    { "english": "to lie / lie down", "hebrew": "לשכב", "pronouncs": "lishkav" },
+    { "english": "I/he lie", "hebrew": "שוכב", "pronouncs": "shochev" },
+    { "english": "I/she lie", "hebrew": "שוכבת", "pronouncs": "shochevet" },
+    { "english": "I lay", "hebrew": "שכבתי", "pronouncs": "shachavti" },
+    { "english": "I will lie", "hebrew": "אשכב", "pronouncs": "eshkav" },
+    { "english": "lie (male) (imperative)", "hebrew": "שכב", "pronouncs": "shchav" },
+    { "english": "layer", "hebrew": "שכבה", "pronouncs": "shechva" },
+    { "english": "despite", "hebrew": "לצרות", "pronouncs": "lamrot" },
+    { "english": "actor", "hebrew": "שחקן", "pronouncs": "sachkan" },
+    { "english": "is / do / is it", "hebrew": "האם", "pronouncs": "ha'im" },
+    { "english": "road", "hebrew": "דרך", "pronouncs": "derech" },
+    { "english": "rice", "hebrew": "אורז", "pronouncs": "orez" },
+    { "english": "orange (fruit)", "hebrew": "תפוז", "pronouncs": "tapuz" },
+    { "english": "pleasure", "hebrew": "כיף", "pronouncs": "kef" },
+    { "english": "sour", "hebrew": "חמוץ", "pronouncs": "chamutz" },
+    { "english": "congratulations", "hebrew": "מזל טוב", "pronouncs": "mazal tov" },
+    { "english": "good luck", "hebrew": "בהצלחה", "pronouncs": "behatzlacha" },
+    { "english": "plate", "hebrew": "צלחת", "pronouncs": "tzalachat" },
+    { "english": "lemon", "hebrew": "לימון", "pronouncs": "limon" },
+    { "english": "bottle", "hebrew": "בקבוק", "pronouncs": "bakbuk" },
+    { "english": "mushroom", "hebrew": "פטריה", "pronouncs": "petriya" },
+    { "english": "donkey", "hebrew": "חמור", "pronouncs": "chamur" },
+    { "english": "animal", "hebrew": "חיה", "pronouncs": "chaya" },
+    { "english": "insect", "hebrew": "חרק", "pronouncs": "cherek" },
+    { "english": "pet", "hebrew": "חיית מחמד", "pronouncs": "chayat machmad" },
+    { "english": "tail", "hebrew": "זנב", "pronouncs": "zanav" },
+    { "english": "slow", "hebrew": "איטי", "pronouncs": "iti" },
+
+
+
+
+
+
 ]
 
 

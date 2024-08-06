@@ -1728,7 +1728,7 @@ export const words: Words[] = [
     { "english": "cloudy", "hebrew": "מעונן", "pronouncs": "ma'onen" },
     { "english": "to agree", "hebrew": "להסכים", "pronouncs": "lehaskim" },
     { "english": "I/he agree", "hebrew": "מסכים", "pronouncs": "maskim" },
-    { "english": "I/he agree", "hebrew": "מסכימה", "pronouncs": "maskima" },
+    { "english": "I/she agree", "hebrew": "מסכימה", "pronouncs": "maskima" },
     { "english": "I agreed", "hebrew": "הסכמתי", "pronouncs": "hiskamti" },
     { "english": "I will agree", "hebrew": "אסכים", "pronouncs": "askim" },
     { "english": "agree (male) (imperative)", "hebrew": "הסכם", "pronouncs": "haskem" },

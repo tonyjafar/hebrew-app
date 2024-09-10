@@ -33,6 +33,19 @@ export class AwsHebrewInfraStack extends cdk.Stack {
     )
 
 
+    const fileCodeOption: cf.FileCodeOptions = {
+      filePath: path.join(__dirname, 'func.js')
+    }
+
+    const cfFunc = new cf.Function(this, "hebrew-func", {
+      code: cf.FunctionCode.fromFile(fileCodeOption),
+      functionName: "hebrew-cf-func"
+    })
+
+    const funcAssosiation: cf.FunctionAssociation = {
+      eventType: cf.FunctionEventType.VIEWER_REQUEST,
+      function: cfFunc
+    }
 
     const hebrewDistribution = new cf.Distribution(this, 'hebrewDist', {
       httpVersion: cf.HttpVersion.HTTP2,
@@ -48,6 +61,7 @@ export class AwsHebrewInfraStack extends cdk.Stack {
         }),
         //origins.S3BucketOrigin(hebrewBucket),
         viewerProtocolPolicy: cf.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
+        functionAssociations: [funcAssosiation],
       },
     });
 

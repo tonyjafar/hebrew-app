@@ -33,6 +33,7 @@ export class AwsHebrewInfraStack extends cdk.Stack {
     )
 
 
+
     const hebrewDistribution = new cf.Distribution(this, 'hebrewDist', {
       httpVersion: cf.HttpVersion.HTTP2,
       enableIpv6: true,
@@ -40,7 +41,12 @@ export class AwsHebrewInfraStack extends cdk.Stack {
       defaultRootObject: 'index.html',
       certificate: cert,
       defaultBehavior: {
-        origin: new origins.S3Origin(hebrewBucket),
+        origin: new origins.OriginGroup({
+          primaryOrigin: origins.S3BucketOrigin.withOriginAccessControl(hebrewBucket),
+          fallbackOrigin: new origins.HttpOrigin(recordName),
+          fallbackStatusCodes: [404],
+        }),
+        //origins.S3BucketOrigin(hebrewBucket),
         viewerProtocolPolicy: cf.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
       },
     });

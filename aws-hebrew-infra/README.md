@@ -1,3 +1,9 @@
+## AWS Infrastructure
+
+![alt text](https://github.com/tonyjafar/hebrew-app/blob/main/diagram.png?raw=true)
+
+
+
 # Welcome to your CDK TypeScript project
 
 This is a blank project for CDK development with TypeScript.

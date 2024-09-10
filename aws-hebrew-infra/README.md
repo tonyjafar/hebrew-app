@@ -1,6 +1,6 @@
 ## AWS Infrastructure
 
-![alt text](https://github.com/tonyjafar/hebrew-app/blob/main/diagram.png?raw=true)
+![alt text](https://github.com/tonyjafar/hebrew-app/blob/master/aws-hebrew-infra/diagram.png?raw=true)
 
 
 

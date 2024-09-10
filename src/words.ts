@@ -2543,6 +2543,15 @@ export const words: Words[] = [
     { "english": "watch tower", "hebrew": "מגדל שמירה", "pronouncs": "megdal shmira" },
     { "english": "workshop", "hebrew": "בית מלאכה", "pronouncs": "beit melacha" },
     { "english": "stopwatch", "hebrew": "שעון עצר", "pronouncs": "she'on etzer" },
+    { "english": "brain washing", "hebrew": "שטיפת מוח", "pronouncs": "shtifat moach" },
+    { "english": "lunch break", "hebrew": "הפסקת אוכל", "pronouncs": "hafsakat ochel" },
+    { "english": "safety belt", "hebrew": "חגורת בטיחות", "pronouncs": "chagorat btichut" },
+    { "english": "book worm", "hebrew": "תולעת ספרים", "pronouncs": "tola'at sfarim" },
+    { "english": "bodyguard", "hebrew": "שומר ראש", "pronouncs": "shomer rosh" },
+    { "english": "if not", "hebrew": "אילולא", "pronouncs": "ilule" },
+    { "english": "had to", "hebrew": "היה צריך", "pronouncs": "haiya tzarich" },
+    { "english": "could", "hebrew": "היה יכול", "pronouncs": "haiya yachol" },
+    { "english": "were it not for / had it not been for", "hebrew": "לולא", "pronouncs": "lule" },
 ]
 
 

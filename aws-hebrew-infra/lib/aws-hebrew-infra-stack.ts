@@ -54,12 +54,7 @@ export class AwsHebrewInfraStack extends cdk.Stack {
       defaultRootObject: 'index.html',
       certificate: cert,
       defaultBehavior: {
-        origin: new origins.OriginGroup({
-          primaryOrigin: origins.S3BucketOrigin.withOriginAccessControl(hebrewBucket),
-          fallbackOrigin: new origins.HttpOrigin(recordName),
-          fallbackStatusCodes: [404],
-        }),
-        //origins.S3BucketOrigin(hebrewBucket),
+        origin: origins.S3BucketOrigin.withOriginAccessControl(hebrewBucket),
         viewerProtocolPolicy: cf.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
         functionAssociations: [funcAssosiation],
       },

@@ -1911,7 +1911,7 @@ export const words: Words[] = [
     { "english": "the mediterranean", "hebrew": "הים התיכון", "pronouncs": "hayam hatichon" },
     { "english": "egypt", "hebrew": "מצרים", "pronouncs": "metzraym" },
     { "english": "the middle east", "hebrew": "המזרח התיכון", "pronouncs": "hamezrach hatichon" },
-    { "english": "england", "hebrew": "אנגליה", "pronouncs": "englia" },
+    { "english": "england", "hebrew": "אנגליה", "pronouncs": "anglia" },
     { "english": "greece", "hebrew": "יוון", "pronouncs": "yavan" },
     { "english": "journey", "hebrew": "מסע", "pronouncs": "masa" },
     { "english": "the most", "hebrew": "הכי", "pronouncs": "hachi" },
@@ -2552,6 +2552,16 @@ export const words: Words[] = [
     { "english": "had to", "hebrew": "היה צריך", "pronouncs": "haiya tzarich" },
     { "english": "could", "hebrew": "היה יכול", "pronouncs": "haiya yachol" },
     { "english": "were it not for / had it not been for", "hebrew": "לולא", "pronouncs": "lule" },
+    { "english": "skin", "hebrew": "עור", "pronouncs": "or" },
+    { "english": "medicine / recovery", "hebrew": "רפואה", "pronouncs": "refu'a" },
+    { "english": "health", "hebrew": "בריאות", "pronouncs": "bri'ut" },
+    { "english": "drug", "hebrew": "סם", "pronouncs": "sam" },
+    { "english": "pain / ache", "hebrew": "כאב", "pronouncs": "ke'ev" },
+    { "english": "clinic", "hebrew": "מרפאה", "pronouncs": "mirpa'a" },
+    { "english": "pressure / stress", "hebrew": "לחץ", "pronouncs": "lachatz" },
+    { "english": "organ", "hebrew": "איבר", "pronouncs": "eivar" },
+    { "english": "virus", "hebrew": "וירוס", "pronouncs": "virus" },
+    { "english": "medicication", "hebrew": "תרופה", "pronouncs": "trufa" },
 ]
 
 

@@ -2575,6 +2575,16 @@ export const words: Words[] = [
     { "english": "script (movie)", "hebrew": "תסריט", "pronouncs": "tasrit" },
     { "english": "soundtrack", "hebrew": "פסקול", "pronouncs": "paskol" },
     { "english": "stage / platform", "hebrew": "במה", "pronouncs": "bama" },
+    { "english": "collection", "hebrew": "אוסף", "pronouncs": "osef" },
+    { "english": "illustration", "hebrew": "איור", "pronouncs": "iyur" },
+    { "english": "postcard / gallery", "hebrew": "גלויה", "pronouncs": "gluya" },
+    { "english": "crowd / audience", "hebrew": "קהל", "pronouncs": "kahal" },
+    { "english": "lierature", "hebrew": "ספרות", "pronouncs": "sifrut" },
+    { "english": "poetry", "hebrew": "שירה", "pronouncs": "shira" },
+    { "english": "dance (noun)", "hebrew": "ריקוד", "pronouncs": "rikud" },
+    { "english": "fashion", "hebrew": "אופנה", "pronouncs": "ofna" },
+    { "english": "dancer", "hebrew": "רקדן", "pronouncs": "rakdan" },
+    { "english": "photography / filming", "hebrew": "צילום", "pronouncs": "tzilum" },
 ]
 
 

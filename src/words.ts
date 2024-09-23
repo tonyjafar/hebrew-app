@@ -2585,6 +2585,16 @@ export const words: Words[] = [
     { "english": "fashion", "hebrew": "אופנה", "pronouncs": "ofna" },
     { "english": "dancer", "hebrew": "רקדן", "pronouncs": "rakdan" },
     { "english": "photography / filming", "hebrew": "צילום", "pronouncs": "tzilum" },
+    { "english": "style", "hebrew": "סגנון", "pronouncs": "signon" },
+    { "english": "art", "hebrew": "אמנות", "pronouncs": "omanut" },
+    { "english": "image / charachter", "hebrew": "דמות", "pronouncs": "dmut" },
+    { "english": "the cave of the patriarchs", "hebrew": "מערת המכפלה", "pronouncs": "me'arat hamechpela" },
+    { "english": "the temple mount", "hebrew": "הר הבית", "pronouncs": "har habeit" },
+    { "english": "the mount of olives", "hebrew": "הר הזיתים", "pronouncs": "har hazeitim" },
+    { "english": "the dome of the rock", "hebrew": "ביפת הסלע", "pronouncs": "kipat hasela" },
+    { "english": "al-aqsa mosque", "hebrew": "מסגד אל-אקצה", "pronouncs": "misgad al-aqtza" },
+    { "english": "church of the sepluchre", "hebrew": "רקדן", "pronouncs": "knesiyat hakever" },
+    { "english": "the western wall", "hebrew": "הכותל המערבי", "pronouncs": "hakotel hama'aravi" },
 ]
 
 

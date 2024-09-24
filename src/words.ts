@@ -2593,7 +2593,7 @@ export const words: Words[] = [
     { "english": "the mount of olives", "hebrew": "הר הזיתים", "pronouncs": "har hazeitim" },
     { "english": "the dome of the rock", "hebrew": "ביפת הסלע", "pronouncs": "kipat hasela" },
     { "english": "al-aqsa mosque", "hebrew": "מסגד אל-אקצה", "pronouncs": "misgad al-aqtza" },
-    { "english": "church of the sepluchre", "hebrew": "רקדן", "pronouncs": "knesiyat hakever" },
+    { "english": "church of the sepluchre", "hebrew": "כנסיית הקבר", "pronouncs": "knesiyat hakever" },
     { "english": "the western wall", "hebrew": "הכותל המערבי", "pronouncs": "hakotel hama'aravi" },
 ]
 

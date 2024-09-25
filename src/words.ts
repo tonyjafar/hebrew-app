@@ -2595,6 +2595,15 @@ export const words: Words[] = [
     { "english": "al-aqsa mosque", "hebrew": "מסגד אל-אקצה", "pronouncs": "misgad al-aqtza" },
     { "english": "church of the sepluchre", "hebrew": "כנסיית הקבר", "pronouncs": "knesiyat hakever" },
     { "english": "the western wall", "hebrew": "הכותל המערבי", "pronouncs": "hakotel hama'aravi" },
+    { "english": "mount zion", "hebrew": "הר ציון", "pronouncs": "har tzion" },
+    { "english": "temple", "hebrew": "מקדש", "pronouncs": "mikdash" },
+    { "english": "soul", "hebrew": "נשמה", "pronouncs": "neshama" },
+    { "english": "christianity", "hebrew": "נצרות", "pronouncs": "natzrut" },
+    { "english": "judasim", "hebrew": "יהדות", "pronouncs": "yahadut" },
+    { "english": "islam", "hebrew": "אסלאם", "pronouncs": "islam" },
+    { "english": "buddhist", "hebrew": "בודהיסטי", "pronouncs": "budhisti" },
+    { "english": "holy", "hebrew": "קדוש", "pronouncs": "kadosh" },
+    { "english": "faith", "hebrew": "אמונה", "pronouncs": "emuna" },
 ]
 
 

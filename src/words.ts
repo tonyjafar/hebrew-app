@@ -54,7 +54,7 @@ export const words: Words[] = [
     { "english": "I/he live", "hebrew": "גר", "pronouncs": "gar" },
     { "english": "I/he learn", "hebrew": "לומד", "pronouncs": "lomed" },
     { "english": "I/he talk / speak", "hebrew": "מדבר", "pronouncs": "medaber" },
-    { "english": "I/he doe / make", "hebrew": "עושה", "pronouncs": "oseh" },
+    { "english": "I/he do / make", "hebrew": "עושה", "pronouncs": "oseh" },
     { "english": "I/he read / call", "hebrew": "קורא", "pronouncs": "koreh" },
     { "english": "I/he think", "hebrew": "חושב", "pronouncs": "choshev" },
     { "english": "I/he write", "hebrew": "כותב", "pronouncs": "kotev" },
@@ -2625,6 +2625,16 @@ export const words: Words[] = [
     { "english": "I will turn off", "hebrew": "אכבה", "pronouncs": "achabe" },
     { "english": "turn off (male) (imperative)", "hebrew": "כבה", "pronouncs": "kabe" },
     { "english": "robot", "hebrew": "רובות", "pronouncs": "robot" },
+    { "english": "stamp", "hebrew": "בול", "pronouncs": "bul" },
+    { "english": "information", "hebrew": "מידע", "pronouncs": "meda" },
+    { "english": "message / notification", "hebrew": "הודעה", "pronouncs": "hoda'a" },
+    { "english": "channel", "hebrew": "ערוץ", "pronouncs": "arutz" },
+    { "english": "communication / media", "hebrew": "תקשורת", "pronouncs": "tikshoret" },
+    { "english": "download", "hebrew": "הורדה", "pronouncs": "hurada" },
+    { "english": "e-mail", "hebrew": "מייל", "pronouncs": "mail" },
+    { "english": "blog", "hebrew": "בלוג", "pronouncs": "blog" },
+    { "english": "network / net", "hebrew": "רשת", "pronouncs": "reshet" },
+    { "english": "file (computing)", "hebrew": "קובץ", "pronouncs": "kovetz" },
 ]
 
 

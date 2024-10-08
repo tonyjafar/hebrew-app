@@ -2656,6 +2656,16 @@ export const words: Words[] = [
     { "english": "recycling", "hebrew": "מחזור", "pronouncs": "michzur" },
     { "english": "genetics", "hebrew": "גנטיקה", "pronouncs": "genetika" },
     { "english": "philosophy", "hebrew": "פלוסופיה", "pronouncs": "plusofia" },
+    { "english": "thermometer", "hebrew": "מדחום", "pronouncs": "madchom" },
+    { "english": "principle", "hebrew": "עיקרון", "pronouncs": "ikaron" },
+    { "english": "quality", "hebrew": "איכות", "pronouncs": "eichut" },
+    { "english": "lab", "hebrew": "מעבדה", "pronouncs": "ma'abada" },
+    { "english": "experiment", "hebrew": "ניסוי", "pronouncs": "nisuy" },
+    { "english": "defintion", "hebrew": "הגדרה", "pronouncs": "hagdara" },
+    { "english": "mass", "hebrew": "מסה", "pronouncs": "masa" },
+    { "english": "edition", "hebrew": "מהדורה", "pronouncs": "mahadura" },
+    { "english": "distribution", "hebrew": "הפצה", "pronouncs": "hafatza" },
+    { "english": "size", "hebrew": "גודל", "pronouncs": "godel" },
 ]
 
 

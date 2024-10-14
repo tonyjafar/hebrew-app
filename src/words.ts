@@ -1395,7 +1395,7 @@ export const words: Words[] = [
     { "english": "lemon", "hebrew": "לימון", "pronouncs": "limon" },
     { "english": "bottle", "hebrew": "בקבוק", "pronouncs": "bakbuk" },
     { "english": "mushroom", "hebrew": "פטריה", "pronouncs": "petriya" },
-    { "english": "donkey", "hebrew": "חמור", "pronouncs": "chamur" },
+    { "english": "donkey", "hebrew": "חמור", "pronouncs": "chamor" },
     { "english": "animal", "hebrew": "חיה", "pronouncs": "chaya" },
     { "english": "insect", "hebrew": "חרק", "pronouncs": "cherek" },
     { "english": "pet", "hebrew": "חיית מחמד", "pronouncs": "chayat machmad" },
@@ -2670,13 +2670,22 @@ export const words: Words[] = [
     { "english": "energy", "hebrew": "אנרגיה", "pronouncs": "energia" },
     { "english": "sample", "hebrew": "דגימה", "pronouncs": "dgima" },
     { "english": "speed", "hebrew": "מהירות", "pronouncs": "mehirut" },
-    { "english": "research / study", "hebrew": "תחקר", "pronouncs": "mechkar" },
+    { "english": "research / study", "hebrew": "מחקר", "pronouncs": "mechkar" },
     { "english": "method", "hebrew": "שיטה", "pronouncs": "shita" },
     { "english": "project", "hebrew": "פרויקט", "pronouncs": "proyekt" },
     { "english": "thesis", "hebrew": "תזה", "pronouncs": "teza" },
     { "english": "sience", "hebrew": "מדע", "pronouncs": "mada" },
     { "english": "technology", "hebrew": "טכנולוגיה", "pronouncs": "tochnologya" },
-
+    { "english": "apology", "hebrew": "התנצלות", "pronouncs": "hitnatzlut" },
+    { "english": "hearing", "hebrew": "שמיעה", "pronouncs": "shmi'a" },
+    { "english": "sale", "hebrew": "מכירה", "pronouncs": "mechira" },
+    { "english": "openning", "hebrew": "פתיחה", "pronouncs": "pticha" },
+    { "english": "invitation", "hebrew": "הזמנה", "pronouncs": "hazmana" },
+    { "english": "studying", "hebrew": "למידה", "pronouncs": "lemida" },
+    { "english": "demand", "hebrew": "דרישה", "pronouncs": "drisha" },
+    { "english": "walking / death", "hebrew": "הליכה", "pronouncs": "halicha" },
+    { "english": "cooking / boiling", "hebrew": "בישול", "pronouncs": "bishul" },
+    { "english": "training", "hebrew": "אימון", "pronouncs": "imun" },
 ]
 
 

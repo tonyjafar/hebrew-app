@@ -2686,6 +2686,20 @@ export const words: Words[] = [
     { "english": "walking / death", "hebrew": "הליכה", "pronouncs": "halicha" },
     { "english": "cooking / boiling", "hebrew": "בישול", "pronouncs": "bishul" },
     { "english": "training", "hebrew": "אימון", "pronouncs": "imun" },
+    { "english": "minerals", "hebrew": "מחצבים", "pronouncs": "machatzabim" },
+    { "english": "speech", "hebrew": "נאום", "pronouncs": "ne'um" },
+    { "english": "nightmare", "hebrew": "סיוט", "pronouncs": "siyut" },
+    { "english": "poison", "hebrew": "רעל", "pronouncs": "ra'al" },
+    { "english": "ladder / music scale", "hebrew": "סולם", "pronouncs": "sulam" },
+    { "english": "harmonica", "hebrew": "מפוחית", "pronouncs": "mapochit" },
+    { "english": "sound / tone / note", "hebrew": "תליל", "pronouncs": "tzlil" },
+    { "english": "to aim / direct", "hebrew": "לכוון", "pronouncs": "lechaven" },
+    { "english": "I/he aim", "hebrew": "מכוון", "pronouncs": "mechaven" },
+    { "english": "I/she aim", "hebrew": "מכוונת", "pronouncs": "mechavenet" },
+    { "english": "I aimed", "hebrew": "כיוונתי", "pronouncs": "kivanti" },
+    { "english": "I will aim", "hebrew": "אכוון", "pronouncs": "achaven" },
+    { "english": "aim (male) (imperative)", "hebrew": "כוון", "pronouncs": "kaven" },
+    { "english": "trumpet", "hebrew": "חצוצרה", "pronouncs": "chatzotzra" },
 ]
 
 

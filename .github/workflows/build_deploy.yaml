@@ -33,12 +33,14 @@ jobs:
             - name: install aws dependency
               run: |
                 cd aws-hebrew-infra
-                npm ci
+                npm install
                 cd ..
 
             - name: install ng dependency
-              run: npm ci
+              run: npm install
 
+            - name: install angular cli and aws cdk 
+              run : npm install -g @angular/cli aws-cdk
             - name: create aws env file
               run: |
                 cd aws-hebrew-infra

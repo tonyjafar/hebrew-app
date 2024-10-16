@@ -2700,6 +2700,16 @@ export const words: Words[] = [
     { "english": "I will aim", "hebrew": "אכוון", "pronouncs": "achaven" },
     { "english": "aim (male) (imperative)", "hebrew": "כוון", "pronouncs": "kaven" },
     { "english": "trumpet", "hebrew": "חצוצרה", "pronouncs": "chatzotzra" },
+    { "english": "echo", "hebrew": "הד", "pronouncs": "hed" },
+    { "english": "tune / melody", "hebrew": "מנגינה", "pronouncs": "mangina" },
+    { "english": "microphone", "hebrew": "מיקרופון", "pronouncs": "mikrofon" },
+    { "english": "drummer", "hebrew": "מתופף", "pronouncs": "metofef" },
+    { "english": "guitarist", "hebrew": "גיטריסט", "pronouncs": "gitarist" },
+    { "english": "chord", "hebrew": "אקורד", "pronouncs": "akord" },
+    { "english": "show / appearance", "hebrew": "הופעה", "pronouncs": "hofa'a" },
+    { "english": "music player", "hebrew": "נגן", "pronouncs": "nagan" },
+    { "english": "gernre", "hebrew": "ז'אנר", "pronouncs": "janer" },
+    { "english": "creation", "hebrew": "יצירה", "pronouncs": "yetzira" },
 ]
 
 

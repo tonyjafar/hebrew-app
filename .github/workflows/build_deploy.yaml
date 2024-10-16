@@ -1,0 +1,53 @@
+name: build and deploy to AWS
+
+on:
+    workflow_dispatch:
+    push:
+      branches:
+        - master
+
+
+jobs:
+    BuidDeploy:
+        permissions: write-all
+        name: Start Build and Deploy
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Project
+              uses: actions/checkout@v4
+
+            - name: Configure AWS Creds
+              uses: aws-actions/configure-aws-credentials@v1-node16
+              with:
+                aws-access-key-id: ${{secrets.AWS_ID}}
+                aws-secret-access-key: ${{secrets.AWS_KEY}}
+                aws-region: eu-central-1
+
+            - name: Setup Node
+              uses: actions/setup-node@v3
+              with:
+                node-version: 22
+                cache: 'npm'
+
+            
+            - name: install aws dependency
+              run: |
+                cd aws-hebrew-infra
+                npm ci
+                cd ..
+
+            - name: install ng dependency
+              run: npm ci
+
+            - name: create aws env file
+              run: |
+                cd aws-hebrew-infra
+                echo "${{ secrets.AWS_ENV }}" | base64 --decode > .env
+                cd ..
+
+            - name: build and deploy
+              run: ./deploy.sh
+
+            - name: delete env file
+              if: ${{ always() }}
+              run: rm -rf aws-hebrew-infra/.env || echo "OK"

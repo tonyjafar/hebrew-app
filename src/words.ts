@@ -1796,7 +1796,7 @@ export const words: Words[] = [
     { "english": "relationship", "hebrew": "מערכת יחסים", "pronouncs": "ma'arechet ychasim" },
     { "english": "foundation", "hebrew": "קרן", "pronouncs": "keren" },
     { "english": "enemy", "hebrew": "אויב", "pronouncs": "oyev" },
-    { "english": "cluture", "hebrew": "תרבות", "pronouncs": "tarbut" },
+    { "english": "culture", "hebrew": "תרבות", "pronouncs": "tarbut" },
     { "english": "committee", "hebrew": "ועדה", "pronouncs": "va'ada" },
     { "english": "conference", "hebrew": "כנס", "pronouncs": "kenes" },
     { "english": "comrade / friend", "hebrew": "ידיד", "pronouncs": "yadid" },
@@ -2710,6 +2710,16 @@ export const words: Words[] = [
     { "english": "music player", "hebrew": "נגן", "pronouncs": "nagan" },
     { "english": "gernre", "hebrew": "ז'אנר", "pronouncs": "janer" },
     { "english": "creation", "hebrew": "יצירה", "pronouncs": "yetzira" },
+    { "english": "concert", "hebrew": "קונצרט", "pronouncs": "kontzert" },
+    { "english": "flute", "hebrew": "חליל", "pronouncs": "chalil" },
+    { "english": "harp", "hebrew": "נבל", "pronouncs": "nevel" },
+    { "english": "instrument", "hebrew": "כלי נגינה", "pronouncs": "kli negina" },
+    { "english": "synthesizer", "hebrew": "סינתיסייזר", "pronouncs": "sintisaizer" },
+    { "english": "piano", "hebrew": "פסנתר", "pronouncs": "psanter" },
+    { "english": "guitar", "hebrew": "גיטרה", "pronouncs": "gitra" },
+    { "english": "singer", "hebrew": "זמר", "pronouncs": "zamar" },
+    { "english": "band", "hebrew": "להקה", "pronouncs": "lahaka" },
+    { "english": "music", "hebrew": "מוזיקה", "pronouncs": "muzika" },
 ]
 
 

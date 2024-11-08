@@ -2720,6 +2720,16 @@ export const words: Words[] = [
     { "english": "singer", "hebrew": "זמר", "pronouncs": "zamar" },
     { "english": "band", "hebrew": "להקה", "pronouncs": "lahaka" },
     { "english": "music", "hebrew": "מוזיקה", "pronouncs": "muzika" },
+    { "english": "violinist", "hebrew": "כנר", "pronouncs": "kanar" },
+    { "english": "extra time / overtime", "hebrew": "הארבה", "pronouncs": "ha'aracha" },
+    { "english": "olympics", "hebrew": " אולימפיאדה", "pronouncs": "olimpiada" },
+    { "english": "athlete", "hebrew": "אתלט", "pronouncs": "atlet" },
+    { "english": "tennis", "hebrew": "טניס", "pronouncs": "tenis" },
+    { "english": "cup (sport)", "hebrew": "גביע", "pronouncs": "gavia" },
+    { "english": "attack / offense", "hebrew": "התקפה", "pronouncs": "hatkafa" },
+    { "english": "defender (football)", "hebrew": "בלם", "pronouncs": "balam" },
+    { "english": "forward / striker (football)", "hebrew": "חלוץ", "pronouncs": "chalutz" },
+    { "english": "league", "hebrew": "ליגה", "pronouncs": "liga" },
 ]
 
 

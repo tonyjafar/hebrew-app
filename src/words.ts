@@ -2730,6 +2730,16 @@ export const words: Words[] = [
     { "english": "defender (football)", "hebrew": "בלם", "pronouncs": "balam" },
     { "english": "forward / striker (football)", "hebrew": "חלוץ", "pronouncs": "chalutz" },
     { "english": "league", "hebrew": "ליגה", "pronouncs": "liga" },
+    { "english": "goalkeeper", "hebrew": "שוער", "pronouncs": "sho'er" },
+    { "english": "midfielder", "hebrew": "קשר", "pronouncs": "kasher" },
+    { "english": "pitch (sport) / court", "hebrew": "מגרש", "pronouncs": "migrash" },
+    { "english": "marathon", "hebrew": "מרתון", "pronouncs": "maraton" },
+    { "english": "penalty kick (soccer)", "hebrew": "פנדל", "pronouncs": "pendel" },
+    { "english": "fan (sports) / supporter", "hebrew": "אוהד", "pronouncs": "ohed" },
+    { "english": "championship", "hebrew": "אליפות", "pronouncs": "alifut" },
+    { "english": "racket / bat (sports)", "hebrew": "מחבט", "pronouncs": "machbet" },
+    { "english": "volleyball", "hebrew": "כדורעף", "pronouncs": "kadur'af" },
+    { "english": "coach / trainer", "hebrew": "מאמן", "pronouncs": "me'amen" },
 ]
 
 

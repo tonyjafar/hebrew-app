@@ -2752,7 +2752,7 @@ export const words: Words[] = [
     { "english": "competition", "hebrew": "תחרות", "pronouncs": "tachrut" },
     { "english": "halftime / half of something", "hebrew": "מחצית", "pronouncs": "machatzit" },
     { "english": "ministry of defence", "hebrew": "משרד הביטחון", "pronouncs": "misrad habitchon" },
-    { "english": "ministry of fincane", "hebrew": "משרד האוצר", "pronouncs": "misrad haotzar" },
+    { "english": "ministry of finance", "hebrew": "משרד האוצר", "pronouncs": "misrad haotzar" },
     { "english": "ministry of justice", "hebrew": "משרד המשפטים", "pronouncs": "misrad hamishpatim" },
     { "english": "ministry of foreign affairs", "hebrew": "משרד החוץ", "pronouncs": "misrad hachutz" },
     { "english": "wealth", "hebrew": "עושר", "pronouncs": "osher" },

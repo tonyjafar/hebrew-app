@@ -2740,6 +2740,22 @@ export const words: Words[] = [
     { "english": "racket / bat (sports)", "hebrew": "מחבט", "pronouncs": "machbet" },
     { "english": "volleyball", "hebrew": "כדורעף", "pronouncs": "kadur'af" },
     { "english": "coach / trainer", "hebrew": "מאמן", "pronouncs": "me'amen" },
+    { "english": "hattrick", "hebrew": "שלושער", "pronouncs": "shlosh'ar" },
+    { "english": "to score (a goal)", "hebrew": "להבקיע", "pronouncs": "lehavkia" },
+    { "english": "I/he score", "hebrew": "מבריע", "pronouncs": "mavkia" },
+    { "english": "I/she score", "hebrew": "מבקיעה", "pronouncs": "mavki'a" },
+    { "english": "I scored", "hebrew": "הבקעתי", "pronouncs": "hivkati" },
+    { "english": "I will score", "hebrew": "אבקיע", "pronouncs": "avkia" },
+    { "english": "score (male) (imperative)", "hebrew": "הקביע", "pronouncs": "havkea" },
+    { "english": "draw / tie (sport)", "hebrew": "תיקו", "pronouncs": "teku" },
+    { "english": "sport", "hebrew": "ספורט", "pronouncs": "sport" },
+    { "english": "competition", "hebrew": "תחרות", "pronouncs": "tachrut" },
+    { "english": "halftime / half of something", "hebrew": "מחצית", "pronouncs": "machatzit" },
+    { "english": "ministry of defence", "hebrew": "משרד הביטחון", "pronouncs": "misrad habitchon" },
+    { "english": "ministry of fincane", "hebrew": "משרד האוצר", "pronouncs": "misrad haotzar" },
+    { "english": "ministry of justice", "hebrew": "משרד המשפטים", "pronouncs": "misrad hamishpatim" },
+    { "english": "ministry of foreign affairs", "hebrew": "משרד החוץ", "pronouncs": "misrad hachutz" },
+    { "english": "wealth", "hebrew": "עושר", "pronouncs": "osher" },
 ]
 
 

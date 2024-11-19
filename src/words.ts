@@ -535,7 +535,7 @@ export const words: Words[] = [
     { "english": "rhinoceros", "hebrew": "קרנף", "pronouncs": "karnaf" },
     { "english": "sunflower", "hebrew": "חמנית", "pronouncs": "chamanit" },
     { "english": "axe", "hebrew": "גרזן", "pronouncs": "garzen" },
-    { "english": "skull", "hebrew": "גולגולת", "pronouncs": "galgolet" },
+    { "english": "skull", "hebrew": "גולגולת", "pronouncs": "gulgolet" },
     { "english": "mountain", "hebrew": "הר", "pronouncs": "har" },
     { "english": "herb", "hebrew": "עשב", "pronouncs": "esev" },
     { "english": "strawberries", "hebrew": "תותים", "pronouncs": "tutim" },

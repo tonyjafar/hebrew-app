@@ -2764,6 +2764,16 @@ export const words: Words[] = [
     { "english": "corruption", "hebrew": "שחיתות", "pronouncs": "shchitut" },
     { "english": "detention / arrest", "hebrew": "מעצר", "pronouncs": "ma'atzar" },
     { "english": "champaign", "hebrew": "קמפיין", "pronouncs": "kampayin" },
+    { "english": "crime", "hebrew": "פשע", "pronouncs": "pesha" },
+    { "english": "strategy", "hebrew": "אסטרטגיה", "pronouncs": "istratigiya" },
+    { "english": "election / choice", "hebrew": "בחירות", "pronouncs": "bchirot" },
+    { "english": "leader", "hebrew": "מנהיג", "pronouncs": "manhig" },
+    { "english": "recommendation", "hebrew": "המלצה", "pronouncs": "hamlatza" },
+    { "english": "economy", "hebrew": "כלכלה", "pronouncs": "kalkala" },
+    { "english": "policy", "hebrew": "מדיניות", "pronouncs": "mediniyut" },
+    { "english": "safety", "hebrew": "בטיחות", "pronouncs": "btichut" },
+    { "english": "tax / fee", "hebrew": "מס", "pronouncs": "mas" },
+    { "english": "right / privilege", "hebrew": "זכות", "pronouncs": "zchut" },
 ]
 
 

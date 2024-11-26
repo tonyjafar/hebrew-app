@@ -1,14 +1,15 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { RouterOutlet } from '@angular/router';
 import { words } from '../words';
 
 
 @Component({
     selector: 'app-root',
-    imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
+    imports: [CommonModule, RouterOutlet],
     templateUrl: './app.component.html',
-    styleUrl: './app.component.css'
+    styleUrl: './app.component.css',
+    standalone: true
 })
 export class AppComponent {
   title = 'hebrew-app';

@@ -2774,6 +2774,16 @@ export const words: Words[] = [
     { "english": "safety", "hebrew": "בטיחות", "pronouncs": "btichut" },
     { "english": "tax / fee", "hebrew": "מס", "pronouncs": "mas" },
     { "english": "right / privilege", "hebrew": "זכות", "pronouncs": "zchut" },
+    { "english": "security", "hebrew": "ביטחון", "pronouncs": "bitachon" },
+    { "english": "calculator", "hebrew": "מחשבון", "pronouncs": "machshevon" },
+    { "english": "Towelette", "hebrew": "מגבון", "pronouncs": "magvon" },
+    { "english": "little boy", "hebrew": "ילדון", "pronouncs": "yaldon" },
+    { "english": "baby elephant", "hebrew": "פילון", "pronouncs": "pilon" },
+    { "english": "booklet / brochure", "hebrew": "ספרון", "pronouncs": "sifron" },
+    { "english": "small bag", "hebrew": "שקית", "pronouncs": "sakit" },
+    { "english": "firefly / glow-worm", "hebrew": "גחלילית", "pronouncs": "gachlilit" },
+    { "english": "motel", "hebrew": "מלונית", "pronouncs": "malonit" },
+    { "english": "handle", "hebrew": "ידית", "pronouncs": "yadit" },
 ]
 
 

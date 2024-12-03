@@ -2784,6 +2784,16 @@ export const words: Words[] = [
     { "english": "firefly / glow-worm", "hebrew": "גחלילית", "pronouncs": "gachlilit" },
     { "english": "motel", "hebrew": "מלונית", "pronouncs": "malonit" },
     { "english": "handle", "hebrew": "ידית", "pronouncs": "yadit" },
+    { "english": "vial", "hebrew": "תלוחית", "pronouncs": "tzlochit" },
+    { "english": "straw", "hebrew": "קשית", "pronouncs": "kashit" },
+    { "english": "kitten", "hebrew": "חתלתול", "pronouncs": "chataltul" },
+    { "english": "piglet", "hebrew": "חזרזיר", "pronouncs": "chazrazir" },
+    { "english": "greenish", "hebrew": "ירקרק", "pronouncs": "yerakrak" },
+    { "english": "reddish", "hebrew": "אדמדם", "pronouncs": "adamdam" },
+    { "english": "puppy", "hebrew": "כלבלב", "pronouncs": "klavlav" },
+    { "english": "bluish", "hebrew": "כחלחל", "pronouncs": "kchalchal" },
+    { "english": "creature", "hebrew": "יצור", "pronouncs": "yetzur" },
+    { "english": "warewolf", "hebrew": "איש זאב", "pronouncs": "ish ze'ev" },
 ]
 
 

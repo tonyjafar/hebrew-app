@@ -2820,7 +2820,7 @@ export const words: Words[] = [
     { "english": "is not / does not", "hebrew": "אינו", "pronouncs": "eino" },
     { "english": "kindly", "hebrew": "מא", "pronouncs": "na" },
     { "english": "madam", "hebrew": "גהרתי", "pronouncs": "gvirti" },
-    { "english": "where", "hebrew": "היכן", "pronouncs": "hichan" },
+    { "english": "where", "hebrew": "היכן", "pronouncs": "hechan" },
 ]
 
 

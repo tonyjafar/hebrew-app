@@ -2811,7 +2811,16 @@ export const words: Words[] = [
     { "english": "I served", "hebrew": "שרתי", "pronouncs": "sheratti" },
     { "english": "I will serve", "hebrew": "אשרת", "pronouncs": "asharet" },
     { "english": "serve (male) (imperative)", "hebrew": "שרת", "pronouncs": "sharet" },
-
+    { "english": "knight / nobleman", "hebrew": "אביר", "pronouncs": "abir" },
+    { "english": "legend", "hebrew": "אגדה", "pronouncs": "agada" },
+    { "english": "please (formal / poetic)", "hebrew": "אנא", "pronouncs": "ana" },
+    { "english": "let us", "hebrew": "הבה", "pronouncs": "hava" },
+    { "english": "we (formal)", "hebrew": "אנו", "pronouncs": "anu" },
+    { "english": "that / which / who", "hebrew": "אשר", "pronouncs": "asher" },
+    { "english": "is not / does not", "hebrew": "אינו", "pronouncs": "eino" },
+    { "english": "kindly", "hebrew": "מא", "pronouncs": "na" },
+    { "english": "madam", "hebrew": "גהרתי", "pronouncs": "gvirti" },
+    { "english": "where", "hebrew": "היכן", "pronouncs": "hichan" },
 ]
 
 

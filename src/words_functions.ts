@@ -3,70 +3,62 @@ import { words, Words } from './words'
 
 
 
-function getRandomIndex(): number{
-    return Math.floor(Math.random() * words.length);
+const WORDS_LENGTH = words.length;
+function getRandomIndex(): number {
+    return Math.floor(Math.random() * WORDS_LENGTH);
 }
 
 
 function getRandomSlice(): Words[] {
     const sliceLength = 6;
-    let newList : Words[] = [];
-    for(let x = 0; x<= words.length + 1; x++){
+    const newList = new Set<Words>();
+    
+    while (newList.size < sliceLength && newList.size <= words.length) {
         const index = getRandomIndex();
-        const itemExists = newList.some(item => 
-            item.english === words[index].english
-          );
-          if (!itemExists){
-            newList.push(words[index]);
-          }
-        if (newList.length == sliceLength) {
-            return newList;
-        }
+        newList.add(words[index]);
     }
-    return newList
+    
+    return Array.from(newList);
 }
 
-function splitList(word: string): string[] {
-    const array = word.split(" ");
-    return array;
-}
+
 
 
 export function getSearchedWords(search: string): [Words[], Words[]] {
     search = search.toLocaleLowerCase().trim();
-    let findings: Words[] = [];
-    let related: Words[] = [];
     if (search.length <= 1) {
-        return [findings, related];
+        return [[], []];
     }
 
-    words.forEach(element => {
-        if (element.english == search || element.hebrew == search) {
-            findings.push(element);
-        } else if (element.english.includes(search) || element.hebrew.includes(search)) {
-            splitList(element.english).forEach(item => {
-                if (item == search) {
-                    findings.push(element);
-                } 
+    const findings = new Set<Words>();
+    const related = new Set<Words>();
+    const searchWords = new Set(search.split(' '));
+
+    for (const element of words) {
+        const elementLower = {
+            english: element.english.toLowerCase(),
+            hebrew: element.hebrew.toLowerCase()
+        };
+
+        if (elementLower.english === search || elementLower.hebrew === search) {
+            findings.add(element);
+            continue;
+        }
+
+        if (elementLower.english.includes(search) || elementLower.hebrew.includes(search)) {
+            const englishWords = elementLower.english.split(' ');
+            const hebrewWords = elementLower.hebrew.split(' ');
+
+            if (englishWords.some(word => searchWords.has(word)) || 
+                hebrewWords.some(word => searchWords.has(word))) {
+                findings.add(element);
+            } else {
+                related.add(element);
             }
-          
-            );
-            splitList(element.hebrew).forEach(item => {
-                if (item == search){
-                    findings.push(element);
-                }
-            });
-            const itemExists = findings.some(item => 
-                item.english === element.english || item.hebrew == element.hebrew
-              );
-              if (!itemExists){
-                related.push(element);
-              }
         }
     }
-    );
 
-    return [findings, related];
+    return [Array.from(findings), Array.from(related)];
 }
 
 

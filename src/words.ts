@@ -2832,12 +2832,20 @@ export const words: Words[] = [
     { "english": "I/she invest", "hebrew": "משקיעה", "pronouncs": "mashki'a" },
     { "english": "I invested", "hebrew": "השקעתי", "pronouncs": "hishkati" },
     { "english": "I will invest", "hebrew": "אשקיע", "pronouncs": "ashkia" },
+    { "english": "invest (male) (imperative)", "hebrew": "השקע", "pronouncs": "hashkea" },
     { "english": "dollar", "hebrew": "דולר", "pronouncs": "dolar" },
     { "english": "debt", "hebrew": "חוב", "pronouncs": "chov" },
     { "english": "profit", "hebrew": "רווח", "pronouncs": "revach" },
     { "english": "stock market", "hebrew": "שוק ההון", "pronouncs": "shuk hahon" },
     { "english": "shekel", "hebrew": "שקל", "pronouncs": "shekel" },
     { "english": "buisness card", "hebrew": "כרטיס ביקור", "pronouncs": "kartis bikur" },
+    { "english": "slave", "hebrew": "עבד", "pronouncs": "eved" },
+    { "english": "to fly (bird, insect)", "hebrew": "לעוף", "pronouncs": "la'uf" },
+    { "english": "I/he fly", "hebrew": "עף", "pronouncs": "af" },
+    { "english": "I/she fly", "hebrew": "עפה", "pronouncs": "afa" },
+    { "english": "I flew", "hebrew": "עפתי", "pronouncs": "afti" },
+    { "english": "I will fly", "hebrew": "אעוף", "pronouncs": "a'uf" },
+    { "english": "fly (male) (imperative)", "hebrew": "עוף", "pronouncs": "uf" },
 ]
 
 

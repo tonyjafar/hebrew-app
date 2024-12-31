@@ -1,5 +1,5 @@
 <div class="main-container">
-  <!-- Search Section -->
+
   <div class="search-section animate__animated animate__fadeIn">
     <div class="search-card">
       <h2 class="text-center mb-4">Hebrew Word Search</h2>
@@ -21,7 +21,7 @@
     </div>
   </div>
 
-  <!-- Results Section -->
+
   <div class="results-section" *ngIf="wordsCount > 0">
     <div class="results-header animate__animated animate__fadeInUp">
       @if (wordsCount == 1) {
@@ -31,7 +31,6 @@
       }
     </div>
 
-    <!-- Main Results Table -->
     <div class="table-responsive animate__animated animate__fadeInUp">
       <table *ngIf="wordsCount > 0" class="table custom-table">
         <thead>
@@ -53,7 +52,7 @@
       </table>
     </div>
 
-    <!-- Related Words Section -->
+
     <div class="related-words-section" *ngIf="relatedCount > 0">
       <div class="related-header animate__animated animate__fadeInUp">
         <h3><span class="badge bg-secondary">Similar Words</span></h3>
@@ -204,7 +203,7 @@
     margin-top: 3rem;
   }
 
-  /* Responsive adjustments */
+
   @media (max-width: 768px) {
     .main-container {
       padding: 1rem;
@@ -224,7 +223,6 @@
     }
   }
 
-  /* Animation classes */
   .animate__animated {
     animation-duration: 0.8s;
   }

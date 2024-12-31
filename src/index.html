@@ -124,23 +124,19 @@
 
 <script>
   window.addEventListener('load', function() {
-    // Hide preloader when page is fully loaded
     const preloader = document.getElementById('preloader');
     if (preloader) {
       preloader.classList.add('hidden');
-      // Remove preloader from DOM after animation
       setTimeout(() => {
         preloader.remove();
       }, 500);
     }
   });
 
-  // Additional check for Angular app load
   document.addEventListener('DOMContentLoaded', function() {
     const appRoot = document.querySelector('app-root');
     const observer = new MutationObserver(function(mutations) {
       if (appRoot.children.length > 0) {
-        // Angular app has loaded content
         const preloader = document.getElementById('preloader');
         if (preloader) {
           preloader.classList.add('hidden');

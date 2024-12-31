@@ -1,75 +1,231 @@
-
- <div class="container">
-  <div class="jumbotron">
-<h6>Search for Words</h6><br>
- <form action="/search" method="get">
-<div class="form-group">
-    <input type="text" class="form-control" name="word" placeholder="Search for word">
+<div class="main-container">
+  <!-- Search Section -->
+  <div class="search-section animate__animated animate__fadeIn">
+    <div class="search-card">
+      <h2 class="text-center mb-4">Hebrew Word Search</h2>
+      
+      <form action="/search" method="get" class="search-form">
+        <div class="search-box">
+          <input 
+            type="text" 
+            class="form-control search-input" 
+            name="word" 
+            placeholder="Type a word to search..."
+            autocomplete="off">
+          <button type="submit" class="search-button">
+            <i class="fas fa-search"></i>
+            Search
+          </button>
+        </div>
+      </form>
     </div>
-    <div class="form-group">
-  <input type="submit" class="btn btn-info">
   </div>
-</form>
+
+  <!-- Results Section -->
+  <div class="results-section" *ngIf="wordsCount > 0">
+    <div class="results-header animate__animated animate__fadeInUp">
+      @if (wordsCount == 1) {
+        <h3><span class="badge bg-primary">Found {{wordsCount}} word</span></h3>
+      } @else {
+        <h3><span class="badge bg-primary">Found {{wordsCount}} words</span></h3>
+      }
+    </div>
+
+    <!-- Main Results Table -->
+    <div class="table-responsive animate__animated animate__fadeInUp">
+      <table *ngIf="wordsCount > 0" class="table custom-table">
+        <thead>
+          <tr>
+            <th class="text-center">English</th>
+            <th class="text-center">Hebrew</th>
+            <th class="text-center">Pronounce</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (word of findWord; track word) {
+            <tr class="word-row">
+              <td class="text-center align-middle">{{word.english}}</td>
+              <td class="text-center align-middle hebrew-text">{{word.hebrew}}</td>
+              <td class="text-center align-middle">{{word.pronouncs}}</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Related Words Section -->
+    <div class="related-words-section" *ngIf="relatedCount > 0">
+      <div class="related-header animate__animated animate__fadeInUp">
+        <h3><span class="badge bg-secondary">Similar Words</span></h3>
+      </div>
+
+      <div class="table-responsive animate__animated animate__fadeInUp">
+        <table class="table custom-table">
+          <thead>
+            <tr>
+              <th class="text-center">English</th>
+              <th class="text-center">Hebrew</th>
+              <th class="text-center">Pronounce</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (word of relatedWord; track word) {
+              <tr class="word-row">
+                <td class="text-center align-middle">{{word.english}}</td>
+                <td class="text-center align-middle hebrew-text">{{word.hebrew}}</td>
+                <td class="text-center align-middle">{{word.pronouncs}}</td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
 
+<style>
+  .main-container {
+    padding: 2rem;
+  }
 
+  .search-section {
+    margin-bottom: 3rem;
+  }
 
+  .search-card {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
 
-<div class="container">
-<div *ngIf="wordsCount > 0">
+  .search-box {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
 
+  .search-input {
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 1.5rem;
+    font-size: 1.1rem;
+    border: 2px solid #e0e0e0;
+    transition: all 0.3s ease;
+  }
 
-@if (wordsCount == 1) {
-  <h3>Found {{wordsCount}} word</h3>
-} @else {
-  <h3>Found {{wordsCount}} words</h3>
-}
-</div>
+  .search-input:focus {
+    border-color: #2196F3;
+    box-shadow: 0 0 0 0.2rem rgba(33, 150, 243, 0.25);
+  }
 
-<table *ngIf="wordsCount > 0" class="table table-striped">
-  <thead>
-    <tr>
-  <th scope="col">English</th>
-      <th scope="col">Hebrew</th>
-      <th scope="col">pronounce</th>
-      </tr>
-  </thead>
-  <tbody>
+  .search-button {
+    padding: 0 1.5rem;
+    height: 50px;
+    border-radius: 25px;
+    background: #2196F3;
+    color: white;
+    border: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+  }
 
- @for (word of findWord; track word){
-   <tr>
-    <td>{{word.english}}</td>
-    <td>{{word.hebrew}}</td>
-    <td>{{word.pronouncs}}</td>
-    </tr>
-}
+  .search-button:hover {
+    background: #1976D2;
+    transform: translateY(-1px);
+  }
 
-</tbody>
-</table>
+  .results-section {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+  }
 
+  .results-header, .related-header {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
 
-<div *ngIf="relatedCount > 0">
-<h3>Similar Words</h3>
-</div>
-<table *ngIf="relatedCount > 0" class="table table-striped">
-  <thead>
-    <tr>
-  <th scope="col">English</th>
-      <th scope="col">Hebrew</th>
-      <th scope="col">pronounce</th>
-      </tr>
-  </thead>
-  <tbody>
+  .custom-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
 
- @for (word of relatedWord; track word){
-   <tr>
-    <td>{{word.english}}</td>
-    <td>{{word.hebrew}}</td>
-    <td>{{word.pronouncs}}</td>
-    </tr>
-}
+  .custom-table thead {
+    background-color: #f8f9fa;
+  }
 
-</tbody>
-</table>
-</div>
+  .custom-table th {
+    padding: 1rem;
+    font-weight: 600;
+    color: #495057;
+    border-bottom: 2px solid #dee2e6;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .custom-table td {
+    padding: 1rem;
+    vertical-align: middle;
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
+  }
+
+  .word-row {
+    transition: all 0.3s ease;
+  }
+
+  .word-row:hover {
+    background-color: #f8f9fa;
+    transform: translateX(5px);
+  }
+
+  .hebrew-text {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.2rem;
+    direction: rtl;
+  }
+
+  .badge {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+  }
+
+  .related-words-section {
+    margin-top: 3rem;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .main-container {
+      padding: 1rem;
+    }
+
+    .search-box {
+      flex-direction: column;
+    }
+
+    .search-button {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .custom-table {
+      font-size: 0.9rem;
+    }
+  }
+
+  /* Animation classes */
+  .animate__animated {
+    animation-duration: 0.8s;
+  }
+</style>

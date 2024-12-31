@@ -12,7 +12,10 @@ import { words } from '../words';
     standalone: true
 })
 export class AppComponent {
-  title = 'hebrew-app';
-  count = words.length
+  isDarkMode = false;
 
+  toggleTheme() {
+    this.isDarkMode = !this.isDarkMode;
+    document.body.setAttribute('data-theme', this.isDarkMode ? 'dark' : 'light');
+  }
 }

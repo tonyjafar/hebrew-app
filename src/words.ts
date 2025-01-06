@@ -2784,7 +2784,7 @@ export const words: Words[] = [
     { "english": "firefly / glow-worm", "hebrew": "גחלילית", "pronouncs": "gachlilit" },
     { "english": "motel", "hebrew": "מלונית", "pronouncs": "malonit" },
     { "english": "handle", "hebrew": "ידית", "pronouncs": "yadit" },
-    { "english": "vial", "hebrew": "תלוחית", "pronouncs": "tzlochit" },
+    { "english": "vial", "hebrew": "צלוחית", "pronouncs": "tzlochit" },
     { "english": "straw", "hebrew": "קשית", "pronouncs": "kashit" },
     { "english": "kitten", "hebrew": "חתלתול", "pronouncs": "chataltul" },
     { "english": "piglet", "hebrew": "חזרזיר", "pronouncs": "chazrazir" },
@@ -2846,6 +2846,16 @@ export const words: Words[] = [
     { "english": "I flew", "hebrew": "עפתי", "pronouncs": "afti" },
     { "english": "I will fly", "hebrew": "אעוף", "pronouncs": "a'uf" },
     { "english": "fly (male) (imperative)", "hebrew": "עוף", "pronouncs": "uf" },
+    { "english": "advertisment", "hebrew": "פרסומת", "pronouncs": "pirsomet" },
+    { "english": "product", "hebrew": "מוצר", "pronouncs": "mutzar" },
+    { "english": "industry", "hebrew": "תעשייה", "pronouncs": "ta'asiya" },
+    { "english": "meeting", "hebrew": "פגישה", "pronouncs": "pgisha" },
+    { "english": "advertising", "hebrew": "פרסום", "pronouncs": "pirsum" },
+    { "english": "salary", "hebrew": "משכורת", "pronouncs": "maskoret" },
+    { "english": "organization", "hebrew": "ארגון", "pronouncs": "irgun" },
+    { "english": "coin", "hebrew": "מטבע", "pronouncs": "matbea" },
+    { "english": "cash", "hebrew": "מזומן", "pronouncs": "mezuman" },
+    { "english": "promotion / advancement", "hebrew": "קידום", "pronouncs": "kidum" },
 ]
 
 

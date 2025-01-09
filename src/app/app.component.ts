@@ -12,10 +12,6 @@ import { words } from '../words';
     standalone: true
 })
 export class AppComponent {
-  isDarkMode = false;
+  count = words.length
 
-  toggleTheme() {
-    this.isDarkMode = !this.isDarkMode;
-    document.body.setAttribute('data-theme', this.isDarkMode ? 'dark' : 'light');
-  }
 }

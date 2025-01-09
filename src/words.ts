@@ -949,7 +949,7 @@ export const words: Words[] = [
     { "english": "I/he urinate", "hebrew": "משתין", "pronouncs": "mashtin" },
     { "english": "I/she unirate", "hebrew": "משתינה", "pronouncs": "mashtina" },
     { "english": "I unirated", "hebrew": "השתנתי", "pronouncs": "heshtanti" },
-    { "english": "I will unirate", "hebrew": "אשמין", "pronouncs": "ashtin" },
+    { "english": "I will unirate", "hebrew": "אשתין", "pronouncs": "ashtin" },
     { "english": "unirate (male) (imperative)", "hebrew": "השתן", "pronouncs": "hashten" },
     { "english": "devil", "hebrew": "שד", "pronouncs": "shed" },
     { "english": "to enjoy", "hebrew": "להנות", "pronouncs": "lehanot" },
@@ -2856,6 +2856,16 @@ export const words: Words[] = [
     { "english": "coin", "hebrew": "מטבע", "pronouncs": "matbea" },
     { "english": "cash", "hebrew": "מזומן", "pronouncs": "mezuman" },
     { "english": "promotion / advancement", "hebrew": "קידום", "pronouncs": "kidum" },
+    { "english": "change (money)", "hebrew": "עודף", "pronouncs": "oderf" },
+    { "english": "budget", "hebrew": "תקציב", "pronouncs": "taktsiv" },
+    { "english": "contract", "hebrew": "חוזה", "pronouncs": "choze" },
+    { "english": "credit card", "hebrew": "כרטיס אשראי", "pronouncs": "kartis arshrai" },
+    { "english": "risk", "hebrew": "סיכון", "pronouncs": "sikun" },
+    { "english": "spaceship", "hebrew": "חללית", "pronouncs": "chalalit" },
+    { "english": "launch", "hebrew": "שיגור", "pronouncs": "shigur" },
+    { "english": "probe", "hebrew": "גשושית", "pronouncs": "gashushit" },
+    { "english": "mars (planet)", "hebrew": "מאדים", "pronouncs": "ma'adim" },
+    { "english": "saturn (planet)", "hebrew": "שבתאי", "pronouncs": "shabtay" },
 ]
 
 

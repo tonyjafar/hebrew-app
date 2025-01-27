@@ -2866,6 +2866,18 @@ export const words: Words[] = [
     { "english": "probe", "hebrew": "גשושית", "pronouncs": "gashushit" },
     { "english": "mars (planet)", "hebrew": "מאדים", "pronouncs": "ma'adim" },
     { "english": "saturn (planet)", "hebrew": "שבתאי", "pronouncs": "shabtay" },
+    { "english": "meteor", "hebrew": "מטאור", "pronouncs": "mete'or" },
+    { "english": "crater", "hebrew": "מכתש", "pronouncs": "machtesh" },
+    { "english": "galaxy", "hebrew": "גלקסיה", "pronouncs": "galaxyia" },
+    { "english": "the milky way", "hebrew": "שביל החלב", "pronouncs": "shvil hachalav" },
+    { "english": "eclipse", "hebrew": "ליקוי", "pronouncs": "likuy" },
+    { "english": "mess / chaos", "hebrew": "בלאגן", "pronouncs": "balagan" },
+    { "english": "independence day", "hebrew": "יום העצמאות", "pronouncs": "yom haatzma'ut" },
+    { "english": "pita (bread)", "hebrew": "פיתה", "pronouncs": "pita" },
+    { "english": "flafle", "hebrew": "פלאפל", "pronouncs": "falafel" },
+    { "english": "hummus", "hebrew": "חומוס", "pronouncs": "chumus" },
+    { "english": "israeli BBQ", "hebrew": "על האש", "pronouncs": "al haesh" },
+
 ]
 
 

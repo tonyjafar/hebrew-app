@@ -2877,7 +2877,16 @@ export const words: Words[] = [
     { "english": "flafle", "hebrew": "פלאפל", "pronouncs": "falafel" },
     { "english": "hummus", "hebrew": "חומוס", "pronouncs": "chumus" },
     { "english": "israeli BBQ", "hebrew": "על האש", "pronouncs": "al haesh" },
-
+    { "english": "Kibbutz", "hebrew": "קיבוץ", "pronouncs": "kibutz" },
+    { "english": "peach paddle", "hebrew": "מטקות", "pronouncs": "matkot" },
+    { "english": "aliyah (immigration to Israel)", "hebrew": "עלייה", "pronouncs": "aliya" },
+    { "english": "sabra (Native Israeli)", "hebrew": "צבר", "pronouncs": "tzabar" },
+    { "english": "hanukkah menorah", "hebrew": "חנוכייה", "pronouncs": "chanukia" },
+    { "english": "purim (Jewish holiday)", "hebrew": "פורים", "pronouncs": "purim" },
+    { "english": "hanukkah", "hebrew": "חכונה", "pronouncs": "chanuka" },
+    { "english": "purim basket", "hebrew": "משלוח מנות", "pronouncs": "mishloach manot" },
+    { "english": "The day of atonment", "hebrew": "יום כיפור", "pronouncs": "yum kipur" },
+    { "english": "hut / sukkah (Jwish ritual)", "hebrew": "סוכה", "pronouncs": "suka" },
 ]
 
 

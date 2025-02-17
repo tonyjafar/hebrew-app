@@ -70,35 +70,24 @@ h1 {
   opacity: 0.9;
 }
 
-/* Updated Pagination Styling */
+/* Pagination Styling */
 .pagination-container {
-  margin: 2rem auto;
+  margin: 2rem 0;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  padding: 1rem;
-  max-width: 100%;
 }
 
 :host ::ng-deep .custom-pagination .ngx-pagination {
   padding: 0;
   margin: 0;
   display: flex;
-  flex-wrap: wrap;
   gap: 0.5rem;
-  justify-content: center;
-  align-items: center;
 }
 
 :host ::ng-deep .custom-pagination .ngx-pagination li {
   margin: 0;
   border-radius: 8px;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 :host ::ng-deep .custom-pagination .ngx-pagination a,
@@ -108,11 +97,6 @@ h1 {
   color: #333;
   border: none;
   transition: all 0.3s ease;
-  min-width: 44px;
-  min-height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 :host ::ng-deep .custom-pagination .ngx-pagination a:hover,
@@ -125,13 +109,9 @@ h1 {
   background: linear-gradient(135deg, #6e8efb, #4a6cf7);
   padding: 0.8rem 1.2rem;
   border-radius: 8px;
-  min-width: 44px;
-  min-height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
+/* Add animations */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -147,7 +127,7 @@ h1 {
   animation: fadeIn 0.5s ease-out forwards;
 }
 
-/* Enhanced Responsive Design */
+/* Responsive Design */
 @media (max-width: 768px) {
   .card-grid {
     padding: 1rem;
@@ -166,46 +146,13 @@ h1 {
     font-size: 1rem;
   }
 
-  .pagination-container {
-    margin: 1rem auto;
-    padding: 0.5rem;
-  }
-
-  :host ::ng-deep .custom-pagination .ngx-pagination {
-    gap: 0.25rem;
-  }
-
   :host ::ng-deep .custom-pagination .ngx-pagination a,
-  :host ::ng-deep .custom-pagination .ngx-pagination button,
-  :host ::ng-deep .custom-pagination .ngx-pagination .current {
-    padding: 0.6rem;
-    font-size: 14px;
-    min-width: 40px;
-    min-height: 40px;
+  :host ::ng-deep .custom-pagination .ngx-pagination button {
+    padding: 0.6rem 1rem;
   }
 }
 
-/* Extra Small Devices */
-@media (max-width: 480px) {
-  .card-grid {
-    grid-template-columns: 1fr;
-    padding: 0.5rem;
-  }
-
-  :host ::ng-deep .custom-pagination .ngx-pagination {
-    gap: 0.2rem;
-  }
-  
-  :host ::ng-deep .custom-pagination .ngx-pagination a,
-  :host ::ng-deep .custom-pagination .ngx-pagination button,
-  :host ::ng-deep .custom-pagination .ngx-pagination .current {
-    padding: 0.5rem;
-    min-width: 36px;
-    min-height: 36px;
-    font-size: 13px;
-  }
-}
-
+/* Loading State Animation */
 @keyframes shimmer {
   0% {
     background-position: -468px 0;
@@ -213,15 +160,6 @@ h1 {
   100% {
     background-position: 468px 0;
   }
-}
-
-:host ::ng-deep .custom-pagination .ngx-pagination .pagination-previous + li:not(.pagination-next) {
-  display: none;
-}
-
-/* Hide the ellipsis */
-:host ::ng-deep .custom-pagination .ngx-pagination .small-screen {
-  display: none;
 }
 
 .flip-card.loading .flip-card-front,

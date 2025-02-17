@@ -1,4 +1,3 @@
-
 <div class="card-grid">
   <div class="flip-card" *ngFor="let item of wordList | paginate: { itemsPerPage: 24, currentPage: p }">
     <div class="flip-card-inner">
@@ -17,14 +16,9 @@
   </div>
 </div>
 
-<pagination-controls
-  [maxSize]="7"
-  [responsive]="true"
-  [previousLabel]="'Previous'"
-  [nextLabel]="'Next'"
-  class="custom-pagination"
-  (pageChange)="onPageChange($event)"
-  screenReaderPaginationLabel="Pagination"
-  screenReaderPageLabel="page"
-  screenReaderCurrentLabel="You're on page">
-</pagination-controls>
+<div class="pagination-container">
+  <pagination-controls 
+    (pageChange)="p = $event"
+    class="custom-pagination">
+  </pagination-controls>
+</div>

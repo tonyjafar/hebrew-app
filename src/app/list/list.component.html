@@ -1,3 +1,12 @@
+<div class="pagination-container">
+  <pagination-controls 
+    (pageChange)="p = $event"
+    [previousLabel]="'P'"
+    [nextLabel]="'N'"
+    class="custom-pagination">
+  </pagination-controls>
+</div>
+
 <div class="card-grid">
   <div class="flip-card" *ngFor="let item of wordList | paginate: { itemsPerPage: 24, currentPage: p }">
     <div class="flip-card-inner">
@@ -19,6 +28,8 @@
 <div class="pagination-container">
   <pagination-controls 
     (pageChange)="p = $event"
+    [previousLabel]="'P'"
+    [nextLabel]="'N'"
     class="custom-pagination">
   </pagination-controls>
 </div>

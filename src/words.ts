@@ -2951,7 +2951,7 @@ export const words: Words[] = [
     { "english": "I will wash", "hebrew": "אשטוף", "pronouncs": "eshtof" },
     { "english": "wash (male) (imperative)", "hebrew": "שטוף", "pronouncs": "shtof" },
     { "english": "filling", "hebrew": "מילוי", "pronouncs": "miluy" },
-    { "english": "wisom tooth", "hebrew": "שן בינה", "pronouncs": "shen bina" },
+    { "english": "wisdom tooth", "hebrew": "שן בינה", "pronouncs": "shen bina" },
     { "english": "inflammation", "hebrew": "דלקת", "pronouncs": "daleket" },
     { "english": "earring", "hebrew": "עגיל", "pronouncs": "agil" },
     { "english": "bracelet", "hebrew": "צמיד", "pronouncs": "tzamid" },

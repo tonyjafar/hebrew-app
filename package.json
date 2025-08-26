@@ -11,18 +11,18 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^20.1.7",
-    "@angular/cdk": "^20.1.6",
-    "@angular/common": "^20.1.7",
-    "@angular/compiler": "^20.1.7",
-    "@angular/core": "^20.1.7",
-    "@angular/forms": "^20.1.7",
-    "@angular/material": "^20.1.6",
-    "@angular/platform-browser": "^20.1.7",
-    "@angular/platform-browser-dynamic": "^20.1.7",
-    "@angular/platform-server": "^20.1.7",
-    "@angular/router": "^20.1.7",
-    "@angular/ssr": "^20.1.6",
+    "@angular/animations": "^20.2.1",
+    "@angular/cdk": "^20.2.0",
+    "@angular/common": "^20.2.1",
+    "@angular/compiler": "^20.2.1",
+    "@angular/core": "^20.2.1",
+    "@angular/forms": "^20.2.1",
+    "@angular/material": "^20.2.0",
+    "@angular/platform-browser": "^20.2.1",
+    "@angular/platform-browser-dynamic": "^20.2.1",
+    "@angular/platform-server": "^20.2.1",
+    "@angular/router": "^20.2.1",
+    "@angular/ssr": "^20.2.0",
     "express": "^5.1.0",
     "fix": "^0.0.3",
     "ngx-pagination": "^6.0.3",
@@ -31,9 +31,9 @@
     "zone.js": "~0.15.1"
   },
   "devDependencies": {
-    "@angular/build": "^20.1.6",
-    "@angular/cli": "^20.1.6",
-    "@angular/compiler-cli": "^20.1.7",
+    "@angular/build": "^20.2.0",
+    "@angular/cli": "^20.2.0",
+    "@angular/compiler-cli": "^20.2.1",
     "@types/express": "^5.0.3",
     "@types/jasmine": "~5.1.9",
     "@types/node": "^24.3.0",
@@ -45,6 +45,6 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ts-jest": "^29.4.1",
-    "typescript": "~5.8.0"
+    "typescript": "~5.9.2"
   }
 }

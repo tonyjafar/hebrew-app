@@ -22,64 +22,69 @@
   </div>
 
 
-  <div class="results-section" *ngIf="wordsCount > 0">
-    <div class="results-header animate__animated animate__fadeInUp">
-      @if (wordsCount == 1) {
-        <h3><span class="badge bg-primary">Found {{wordsCount}} word</span></h3>
-      } @else {
-        <h3><span class="badge bg-primary">Found {{wordsCount}} words</span></h3>
-      }
-    </div>
-
-    <div class="table-responsive animate__animated animate__fadeInUp">
-      <table *ngIf="wordsCount > 0" class="table custom-table">
-        <thead>
-          <tr>
-            <th class="text-center">English</th>
-            <th class="text-center">Hebrew</th>
-            <th class="text-center">Pronounce</th>
-          </tr>
-        </thead>
-        <tbody>
-          @for (word of findWord; track word) {
-            <tr class="word-row">
-              <td class="text-center align-middle">{{word.english}}</td>
-              <td class="text-center align-middle hebrew-text">{{word.hebrew}}</td>
-              <td class="text-center align-middle">{{word.pronouncs}}</td>
-            </tr>
-          }
-        </tbody>
-      </table>
-    </div>
-
-
-    <div class="related-words-section" *ngIf="relatedCount > 0">
-      <div class="related-header animate__animated animate__fadeInUp">
-        <h3><span class="badge bg-secondary">Similar Words</span></h3>
+  @if (wordsCount > 0) {
+    <div class="results-section">
+      <div class="results-header animate__animated animate__fadeInUp">
+        @if (wordsCount == 1) {
+          <h3><span class="badge bg-primary">Found {{wordsCount}} word</span></h3>
+        } @else {
+          <h3><span class="badge bg-primary">Found {{wordsCount}} words</span></h3>
+        }
       </div>
 
       <div class="table-responsive animate__animated animate__fadeInUp">
-        <table class="table custom-table">
-          <thead>
-            <tr>
-              <th class="text-center">English</th>
-              <th class="text-center">Hebrew</th>
-              <th class="text-center">Pronounce</th>
-            </tr>
-          </thead>
-          <tbody>
-            @for (word of relatedWord; track word) {
-              <tr class="word-row">
-                <td class="text-center align-middle">{{word.english}}</td>
-                <td class="text-center align-middle hebrew-text">{{word.hebrew}}</td>
-                <td class="text-center align-middle">{{word.pronouncs}}</td>
+        @if (wordsCount > 0) {
+          <table class="table custom-table">
+            <thead>
+              <tr>
+                <th class="text-center">English</th>
+                <th class="text-center">Hebrew</th>
+                <th class="text-center">Pronounce</th>
               </tr>
-            }
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              @for (word of findWord; track word) {
+                <tr class="word-row">
+                  <td class="text-center align-middle">{{word.english}}</td>
+                  <td class="text-center align-middle hebrew-text">{{word.hebrew}}</td>
+                  <td class="text-center align-middle">{{word.pronouncs}}</td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        }
       </div>
+
+      @if (relatedCount > 0) {
+        <div class="related-words-section">
+          <div class="related-header animate__animated animate__fadeInUp">
+            <h3><span class="badge bg-secondary">Similar Words</span></h3>
+          </div>
+
+          <div class="table-responsive animate__animated animate__fadeInUp">
+            <table class="table custom-table">
+              <thead>
+                <tr>
+                  <th class="text-center">English</th>
+                  <th class="text-center">Hebrew</th>
+                  <th class="text-center">Pronounce</th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (word of relatedWord; track word) {
+                  <tr class="word-row">
+                    <td class="text-center align-middle">{{word.english}}</td>
+                    <td class="text-center align-middle hebrew-text">{{word.hebrew}}</td>
+                    <td class="text-center align-middle">{{word.pronouncs}}</td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+        </div>
+      }
     </div>
-  </div>
+  }
 </div>
 
 <style>

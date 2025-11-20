@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import {getSearchedWords} from '../../words_functions'
-import { CommonModule } from '@angular/common';
+
 import {Words} from '../../words'
 
 @Component({
     selector: 'app-search',
-    imports: [CommonModule],
+    imports: [],
     templateUrl: './search.component.html',
     styleUrl: './search.component.css'
 })

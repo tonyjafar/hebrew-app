@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { words } from '../words';
@@ -6,7 +6,7 @@ import { words } from '../words';
 
 @Component({
     selector: 'app-root',
-    imports: [CommonModule, RouterOutlet],
+    imports: [RouterOutlet],
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
     standalone: true

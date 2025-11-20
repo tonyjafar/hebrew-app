@@ -78,7 +78,6 @@ export class AwsHebrewInfraStack extends cdk.Stack {
 
     const record = new route.CnameRecord(this, "route-record", {
       zone: route53Zone,
-      deleteExisting: true,
       recordName: recordName,
       domainName: hebrewDistribution.domainName
     })

@@ -12,16 +12,16 @@
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "@types/node": "25.0.6",
-    "aws-cdk": "^2.1100.3",
+    "@types/node": "25.0.9",
+    "aws-cdk": "^2.1101.0",
     "jest": "^30.2.0",
     "ts-jest": "^29.4.6",
-    "ts-node": "^10.9.2",
+    "ts-node": "^1.7.1",
     "typescript": "~5.9.3"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.234.1",
-    "constructs": "^10.4.4",
+    "aws-cdk-lib": "^2.235.0",
+    "constructs": "^10.4.5",
     "dotenv": "^17.2.3",
     "npm-check-updates": "^19.3.1",
     "source-map-support": "^0.5.21"

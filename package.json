@@ -37,7 +37,7 @@
     "@angular/compiler-cli": "^21.1.2",
     "@types/express": "^5.0.6",
     "@types/jasmine": "~6.0.0",
-    "@types/node": "^25.1.0",
+    "@types/node": "^25.2.0",
     "baseline-browser-mapping": "^2.9.19",
     "jasmine-core": "^6.0.1",
     "jest": "^30.2.0",

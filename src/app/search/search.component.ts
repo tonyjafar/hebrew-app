@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import {getSearchedWords} from '../../words_functions'
 
@@ -8,6 +8,7 @@ import {Words} from '../../words'
     selector: 'app-search',
     imports: [],
     templateUrl: './search.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrl: './search.component.css'
 })
 export class SearchComponent {

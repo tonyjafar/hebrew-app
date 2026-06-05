@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { words } from '../../words';
 import { NgxPaginationModule } from 'ngx-pagination';
 
@@ -8,6 +8,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
     selector: 'app-list',
     imports: [NgxPaginationModule],
     templateUrl: './list.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrl: './list.component.css'
 })
 export class ListComponent {

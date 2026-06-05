@@ -13,17 +13,17 @@
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "25.9.1",
-    "aws-cdk": "^2.1125.0",
+    "aws-cdk": "^2.1126.0",
     "jest": "^30.4.2",
     "ts-jest": "^29.4.11",
     "ts-node": "^10.9.2",
     "typescript": "~6.0.3"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.257.0",
+    "aws-cdk-lib": "^2.258.0",
     "constructs": "^10.6.0",
     "dotenv": "^17.4.2",
-    "npm-check-updates": "^22.2.1",
+    "npm-check-updates": "^22.2.2",
     "source-map-support": "^0.5.21"
   }
 }

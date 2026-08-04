@@ -46,10 +46,11 @@ jobs:
                 cd aws-hebrew-infra
                 echo "${{ secrets.AWS_ENV }}" | base64 --decode > .env
                 export frontKey=${{ secrets.FRONTKEY }}
+                echo $frontKey
                 cd ..
 
             - name: build and deploy
-              run: ./deploy.sh
+              run: export frontKey=${{ secrets.FRONTKEY }} && ./deploy.sh
 
             - name: delete env file
               if: ${{ always() }}

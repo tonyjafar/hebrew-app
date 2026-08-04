@@ -8,6 +8,7 @@ import { aws_s3_deployment as depl } from 'aws-cdk-lib';
 import { aws_certificatemanager as crt } from 'aws-cdk-lib';
 import { aws_route53 as route } from "aws-cdk-lib";
 import path = require('path');
+import { FunctionRuntime } from 'aws-cdk-lib/aws-cloudfront';
 
 
 export class AwsHebrewInfraStack extends cdk.Stack {
@@ -39,7 +40,8 @@ export class AwsHebrewInfraStack extends cdk.Stack {
 
     const cfFunc = new cf.Function(this, "hebrew-func", {
       code: cf.FunctionCode.fromFile(fileCodeOption),
-      functionName: "hebrew-cf-func"
+      functionName: "hebrew-cf-func",
+      runtime: FunctionRuntime.JS_2_0
     })
 
     const funcAssosiation: cf.FunctionAssociation = {

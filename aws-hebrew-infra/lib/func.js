@@ -2,7 +2,7 @@ import cf from 'cloudfront';
 const kvsHandle = cf.kvs();
 
 
-function handler(event) {
+async function handler(event) {
 
     var request = event.request;
     var headers = request.headers;

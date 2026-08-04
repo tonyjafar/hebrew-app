@@ -21,6 +21,7 @@ export class AwsHebrewInfraStack extends cdk.Stack {
     const hostedZoneId = process.env.HOST_ZONE ? process.env.HOST_ZONE : "";
     const zoneName = process.env.ZONE_NAME ? process.env.ZONE_NAME : "";
     const recordName = process.env.RECORD_NAME ? process.env.RECORD_NAME : "";
+    const fronKey = process.env.frontKey ? process.env.frontKey : "";
 
     const hebrewBucket = new s3.Bucket(this, 'hebrewBucket', {
       bucketName: bucketName,
@@ -38,10 +39,17 @@ export class AwsHebrewInfraStack extends cdk.Stack {
       filePath: path.join(__dirname, 'func.js')
     }
 
+    const FrontKeyValueStore = cf.KeyValueStore.fromKeyValueStoreArn(
+      this,
+      "keystore",
+      fronKey
+    )
+
     const cfFunc = new cf.Function(this, "hebrew-func", {
       code: cf.FunctionCode.fromFile(fileCodeOption),
       functionName: "hebrew-cf-func",
-      runtime: FunctionRuntime.JS_2_0
+      runtime: FunctionRuntime.JS_2_0,
+      keyValueStore: FrontKeyValueStore
     })
 
     const funcAssosiation: cf.FunctionAssociation = {

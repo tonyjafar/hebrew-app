@@ -45,7 +45,7 @@ jobs:
               run: |
                 cd aws-hebrew-infra
                 echo "${{ secrets.AWS_ENV }}" | base64 --decode > .env
-                echo "frontKey=${{ secrets.FRONTKEY }}" >> .env
+                export frontKey=${{ secrets.FRONTKEY }}
                 cd ..
 
             - name: build and deploy

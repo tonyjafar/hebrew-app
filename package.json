@@ -40,18 +40,18 @@
     "@angular/compiler-cli": "^22.2.0",
     "@types/express": "^5.0.6",
     "@types/jasmine": "~6.0.0",
-    "@types/node": "^26.6.2",
-    "baseline-browser-mapping": "^2.11.25",
+    "@types/node": "^26.6.3",
+    "baseline-browser-mapping": "^2.11.26",
     "istanbul-lib-instrument": "^6.0.3",
     "jasmine-core": "^7.0.2",
     "jest": "^30.5.2",
-    "karma": "^6.4.2",
+    "karma": "^6.4.4",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.1",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.3.0",
-    "socket.io": "^4.5.4",
-    "ts-jest": "^29.4.13",
+    "socket.io": "^4.8.4",
+    "ts-jest": "^29.4.14",
     "typescript": "^6.0.3"
   }
 }

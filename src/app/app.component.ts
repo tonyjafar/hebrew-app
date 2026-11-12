@@ -13,6 +13,6 @@ import { words } from '../words';
     standalone: true
 })
 export class AppComponent {
-  count = words.length
-
+  title = 'hebrew-app';
+  count = words.length;
 }

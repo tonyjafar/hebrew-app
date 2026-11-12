@@ -15,5 +15,8 @@ import { randomSlice } from '../../words_functions';
 export class HomeComponent {
   wordsDic = randomSlice;
 
+  reloadWords(): void {
+    window.location.reload();
+  }
 }
 

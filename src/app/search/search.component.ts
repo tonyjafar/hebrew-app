@@ -12,28 +12,32 @@ import {Words} from '../../words'
     styleUrl: './search.component.css'
 })
 export class SearchComponent {
-  public paramKeys: any;
-  public params: any;
+  public paramKeys: string[] = [];
+  public params: string | null = null;
   public findWord: Words[] = [];
   public relatedWord: Words[] = [];
-  public wordsCount: any;
-  public relatedCount: any;
+  public wordsCount = 0;
+  public relatedCount = 0;
+
   constructor(private route: ActivatedRoute) {
-    this.route.queryParamMap
-      .subscribe((p:any) => {
-        this.params = p['params'][p.keys];
-        this.paramKeys = p.keys;
-      }
-    );
-    if (this.params !== undefined) {
-    [this.findWord, this.relatedWord] = getSearchedWords(this.params);
-  } else{
-    this.findWord = [];
-  }
-  this.wordsCount = this.findWord.length;
-  this.relatedCount = this.relatedWord.length;
+    this.route.queryParamMap.subscribe((params) => {
+      this.paramKeys = params.keys;
+      this.params = params.get('word');
+      this.updateSearchResults();
+    });
   }
 
+  private updateSearchResults(): void {
+    if (this.params !== null && this.params.trim() !== '') {
+      [this.findWord, this.relatedWord] = getSearchedWords(this.params);
+    } else {
+      this.findWord = [];
+      this.relatedWord = [];
+    }
+
+    this.wordsCount = this.findWord.length;
+    this.relatedCount = this.relatedWord.length;
+  }
 }
 
 

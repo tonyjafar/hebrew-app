@@ -23,28 +23,36 @@ function getRandomSlice(): Words[] {
 
 
 
+function normalizeSearchInput(search: string): string {
+    return search
+        .replace(/[<>]/g, '')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .toLocaleLowerCase();
+}
+
 export function getSearchedWords(search: string): [Words[], Words[]] {
-    search = search.toLocaleLowerCase().trim();
-    if (search.length <= 1) {
+    const normalizedSearch = normalizeSearchInput(String(search ?? ''));
+    if (normalizedSearch.length <= 1) {
         return [[], []];
     }
 
     const findings = new Set<Words>();
     const related = new Set<Words>();
-    const searchWords = new Set(search.split(' '));
+    const searchWords = new Set(normalizedSearch.split(' '));
 
     for (const element of words) {
         const elementLower = {
-            english: element.english.toLowerCase(),
-            hebrew: element.hebrew.toLowerCase()
+            english: normalizeSearchInput(element.english),
+            hebrew: normalizeSearchInput(element.hebrew)
         };
 
-        if (elementLower.english === search || elementLower.hebrew === search) {
+        if (elementLower.english === normalizedSearch || elementLower.hebrew === normalizedSearch) {
             findings.add(element);
             continue;
         }
 
-        if (elementLower.english.includes(search) || elementLower.hebrew.includes(search)) {
+        if (elementLower.english.includes(normalizedSearch) || elementLower.hebrew.includes(normalizedSearch)) {
             const englishWords = elementLower.english.split(' ');
             const hebrewWords = elementLower.hebrew.split(' ');
 

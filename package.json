@@ -32,7 +32,13 @@
     "zone.js": "^0.16.3"
   },
   "overrides": {
-    "ws": "8.20.1"
+    "socket.io": "^4.8.4",
+    "karma": "^6.4.4",
+    "ws": "^8.22.2",
+    "cookie": "^0.7.2",
+    "glob": "^14.0.5",
+    "minimatch": "^11.0.8",
+    "deepmerge": "^4.3.1"
   },
   "devDependencies": {
     "@angular/build": "^22.2.6",
@@ -44,7 +50,6 @@
     "baseline-browser-mapping": "^2.11.36",
     "istanbul-lib-instrument": "^6.0.3",
     "jasmine-core": "^7.0.2",
-    "jest": "^30.5.2",
     "karma": "^6.4.4",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.1",
